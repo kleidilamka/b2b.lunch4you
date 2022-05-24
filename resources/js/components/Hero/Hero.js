@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.scss";
 import MainImage from "../../assets/mainImage.jpeg";
+import ServicesImage from "../../assets/servicesImage.png";
 
 const Hero = () => {
     return (
@@ -40,6 +41,13 @@ const Hero = () => {
                     <button class={styles.button}>JETZT REGISTRIEREN</button>
                 </div>
             </div>
+            {/* Services Image Background */}
+            <div
+                class={styles.servicesBackground}
+                style={{
+                    backgroundImage: `url("${ServicesImage}")`,
+                }}
+            ></div>
         </div>
     );
 };
