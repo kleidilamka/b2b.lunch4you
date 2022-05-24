@@ -1,0 +1,18 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4em 0 4em 0;
+}
+
+.title {
+    font-size: 48px;
+    margin-top: 0.5em;
+}
+
+.text {
+    font-size: 18px;
+    margin: 2em 0 2em 0;
+}
