@@ -1,0 +1,89 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribeContainer {
+    padding-top: 3em;
+    background-color: #f89b1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    margin-top: 0.5em;
+    color: white;
+}
+
+.topContainer {
+    background-color: #bd006c;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.middleContainer {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em 0;
+}
+
+.uppercase {
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.lowercase {
+    color: #fff;
+    margin-bottom: 0.2em;
+}
+
+.image {
+    height: 100px;
+}
+
+.bottomContainer {
+    background-color: #232b36;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2em 0;
+}
+
+.input {
+    border: 1px solid #3c3c3c;
+    height: 50px;
+    width: 30%;
+    border-radius: 12px;
+    padding-left: 12px;
+}
+
+.button {
+    border: 1px solid #fff;
+    height: 50px;
+    width: 30%;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
