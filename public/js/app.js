@@ -5474,9 +5474,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Hero = function Hero() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
     "class": _Hero_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].root,
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       "class": _Hero_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].bgImage,
       style: {
         backgroundImage: "url(\"".concat(_assets_mainImage_jpeg__WEBPACK_IMPORTED_MODULE_2__["default"], "\")")
@@ -5485,7 +5485,28 @@ var Hero = function Hero() {
         "class": _Hero_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].title,
         children: ["LUNCH 4 YOU BUSINESS. ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("br", {}), "DIE ERSTE ONLINEKANTINE."]
       })
-    })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+      "class": _Hero_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].registrierenContainer,
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        "class": _Hero_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].container,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+          "class": _Hero_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].mainText,
+          style: {
+            color: "#f89b1b"
+          },
+          children: "GEMEINSAM ESSEN. JEDERZEIT UND \xDCBERALL."
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("h2", {
+          "class": _Hero_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].registrierenTitle,
+          children: ["UNSERE MISSION: ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("br", {}), "LECKERES ESSEN. JEDEN TAG."]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h4", {
+          "class": _Hero_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].text,
+          children: "Sie brauchen eine transparente und flexible L\xF6sung f\xFCr die Versorgung Ihrer Mitarbeiter? Kein Problem! Mit unserer Lunch4You Plattform f\xFCr Business-Kunden bieten wir Ihnen die maximale Flexibilit\xE4t! Egal ob Sie das Essen t\xE4glich oder w\xF6chentlich zentral bestellen wollen, oder ob jeder Mitarbeiter individuell bestellen soll. Oder ob Sie eine individuelle Bezuschussung w\xFCnschen - wir haben die L\xF6sung f\xFCr Sie."
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
+          "class": _Hero_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].button,
+          children: "JETZT REGISTRIEREN"
+        })]
+      })
+    })]
   });
 };
 
@@ -10624,12 +10645,18 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".Lsf6khCKZWq0X0zYUER3wg\\=\\= {\n  width: 100%;\n}\n\n.E54yKhxhhDSh1Bjrolc6\\+A\\=\\= {\n  background-position: center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  height: 800px;\n  position: relative;\n}\n\n.UIpPLM0CKdVDd7EygCvk9w\\=\\= {\n  position: absolute;\n  right: 100px;\n  bottom: 50px;\n  font-size: 60px;\n  color: #fff;\n  text-align: right;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".Lsf6khCKZWq0X0zYUER3wg\\=\\= {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n.E54yKhxhhDSh1Bjrolc6\\+A\\=\\= {\n  background-position: center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  height: 800px;\n  position: relative;\n}\n\n.UIpPLM0CKdVDd7EygCvk9w\\=\\= {\n  position: absolute;\n  right: 100px;\n  bottom: 50px;\n  font-size: 60px;\n  color: #fff;\n  text-align: right;\n}\n\n.Qfevi4QhZK4hRWQtMiyO5g\\=\\= {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  height: 400px;\n}\n\n.t-i05wGMF2\\+6yILRD8tjuQ\\=\\= {\n  margin-top: 4em;\n  width: 50%;\n  text-align: center;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n._209Q9txel9dtPANT\\+BANcA\\=\\= {\n  margin: 2em 0 1em 0;\n}\n\n.rS2ywAYJQxacogR3\\+3ZU5Q\\=\\= {\n  font-size: 48px;\n  color: #000000;\n}\n\n._45H0ZdqClxRuEchhvtZgpQ\\=\\= {\n  margin: 2em 0 2em 0;\n}\n\n.JYpc1vzFv4ufhkDicqVojw\\=\\= {\n  background-color: transparent;\n  border: 1px solid #f89b1b;\n  border-radius: 12px;\n  color: #f89b1b;\n  height: 80px;\n  font-size: 24px;\n  margin-bottom: 2em;\n}", ""]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"root": "Lsf6khCKZWq0X0zYUER3wg==",
 	"bgImage": "E54yKhxhhDSh1Bjrolc6+A==",
-	"title": "UIpPLM0CKdVDd7EygCvk9w=="
+	"title": "UIpPLM0CKdVDd7EygCvk9w==",
+	"registrierenContainer": "Qfevi4QhZK4hRWQtMiyO5g==",
+	"container": "t-i05wGMF2+6yILRD8tjuQ==",
+	"mainText": "_209Q9txel9dtPANT+BANcA==",
+	"registrierenTitle": "rS2ywAYJQxacogR3+3ZU5Q==",
+	"text": "_45H0ZdqClxRuEchhvtZgpQ==",
+	"button": "JYpc1vzFv4ufhkDicqVojw=="
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

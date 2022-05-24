@@ -1,5 +1,7 @@
 .root {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .bgImage {
@@ -17,4 +19,45 @@
     font-size: 60px;
     color: #fff;
     text-align: right;
+}
+
+.registrierenContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.container {
+    margin-top: 4em;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainText {
+    margin: 2em 0 1em 0;
+}
+
+.registrierenTitle {
+    font-size: 48px;
+    color: #000000;
+}
+
+.text {
+    margin: 2em 0 2em 0;
+}
+
+.button {
+    background-color: transparent;
+    border: 1px solid #f89b1b;
+    border-radius: 12px;
+    color: #f89b1b;
+    height: 80px;
+    font-size: 24px;
+    margin-bottom: 2em;
 }
