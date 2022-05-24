@@ -5376,6 +5376,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+ // import Test from "./pages/Test";
 
 
 
@@ -5723,6 +5724,107 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/ServicesTwo/ServicesTwo.js":
+/*!************************************************************!*\
+  !*** ./resources/js/components/ServicesTwo/ServicesTwo.js ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _ServicesTwo_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ServicesTwo.module.scss */ "./resources/js/components/ServicesTwo/ServicesTwo.module.scss");
+/* harmony import */ var _assets_handIcon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/handIcon.svg */ "./resources/js/assets/handIcon.svg");
+/* harmony import */ var _assets_clockIcon_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/clockIcon.svg */ "./resources/js/assets/clockIcon.svg");
+/* harmony import */ var _assets_cartIcon_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/cartIcon.svg */ "./resources/js/assets/cartIcon.svg");
+/* harmony import */ var _assets_forkIcon_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/forkIcon.svg */ "./resources/js/assets/forkIcon.svg");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+
+
+var data = [{
+  id: "1",
+  firstRow: "MENÜS ONLINE",
+  secondRow: "AUSWÄHLEN",
+  icon: _assets_handIcon_svg__WEBPACK_IMPORTED_MODULE_2__["default"]
+}, {
+  id: "2",
+  firstRow: "MENÜS ONLINE",
+  secondRow: "AUSWÄHLEN",
+  icon: _assets_clockIcon_svg__WEBPACK_IMPORTED_MODULE_3__["default"]
+}, {
+  id: "3",
+  firstRow: "MENÜS ONLINE",
+  secondRow: "AUSWÄHLEN",
+  icon: _assets_cartIcon_svg__WEBPACK_IMPORTED_MODULE_4__["default"]
+}, {
+  id: "4",
+  firstRow: "MENÜS ONLINE",
+  secondRow: "AUSWÄHLEN",
+  icon: _assets_forkIcon_svg__WEBPACK_IMPORTED_MODULE_5__["default"]
+}];
+
+var ServicesTwo = function ServicesTwo() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+    "class": _ServicesTwo_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].root,
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+      "class": _ServicesTwo_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].container,
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h2", {
+        "class": _ServicesTwo_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].text,
+        children: "SO EINFACH, SO GUT."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("h2", {
+        "class": _ServicesTwo_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].title,
+        children: ["DEINE BESTELLUNG MIT L\xDCCKENLOS ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("br", {}), "GEK\xDCHLTER LIEFERKETTE !"]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h4", {
+        "class": _ServicesTwo_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].description,
+        children: "Von der ersten Sekunde an, behandeln wir unsere ausgew\xE4hlten Zutaten mit viel Liebe und Sorgfalt. Nach der Zubereitung durch unsere Chefk\xF6che, werden unsere Men\xFCs direkt unter allen wichtigen hygenischen Aspekten verpackt und gek\xFChlt. Bis zum Eintreffen bei Dir zu Hause, wird diese K\xFChlkette nicht unter- brochen. Deine Bestellung wird von uns gek\xFChlt versand, so dass Du unsere leckeren Gerichte einfach zu Hause genie\xDFen kannst. Im K\xFChlschrank sind die Men\xFCs bei Dir problemlos 5 Tage bei 4\xB0 haltbar."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+        "class": _ServicesTwo_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].servicesList,
+        children: data.map(function (item) {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+            "class": _ServicesTwo_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].iconContainer,
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("img", {
+              src: item.icon,
+              "class": _ServicesTwo_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].icon
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("h2", {
+              "class": _ServicesTwo_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].text,
+              children: [item.id, " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("br", {}), item.firstRow, " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("br", {}), item.secondRow]
+            })]
+          });
+        })
+      })]
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ServicesTwo);
+
+/***/ }),
+
+/***/ "./resources/js/components/ServicesTwo/index.js":
+/*!******************************************************!*\
+  !*** ./resources/js/components/ServicesTwo/index.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _ServicesTwo__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _ServicesTwo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ServicesTwo */ "./resources/js/components/ServicesTwo/ServicesTwo.js");
+
+
+/***/ }),
+
 /***/ "./resources/js/pages/Home/Home.js":
 /*!*****************************************!*\
   !*** ./resources/js/pages/Home/Home.js ***!
@@ -5738,7 +5840,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Hero */ "./resources/js/components/Hero/index.js");
 /* harmony import */ var _components_Products_Products__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Products/Products */ "./resources/js/components/Products/Products.js");
 /* harmony import */ var _components_Services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Services */ "./resources/js/components/Services/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _components_ServicesTwo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/ServicesTwo */ "./resources/js/components/ServicesTwo/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -5747,8 +5851,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Home = function Home() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Hero__WEBPACK_IMPORTED_MODULE_1__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Services__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Products_Products__WEBPACK_IMPORTED_MODULE_2__["default"], {})]
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_Hero__WEBPACK_IMPORTED_MODULE_1__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_Services__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_Products_Products__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_ServicesTwo__WEBPACK_IMPORTED_MODULE_4__["default"], {})]
   });
 };
 
@@ -10948,6 +11052,40 @@ ___CSS_LOADER_EXPORT___.locals = {
 	"container": "LnKdzNAjQevDfTc9ks2fZw==",
 	"iconContainer": "IdmOPaHIgcEbk-u5Yx-9Jw==",
 	"icon": "-sUsAAAmeZCILdBl8hcQ3A=="
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/js/components/ServicesTwo/ServicesTwo.module.scss":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/js/components/ServicesTwo/ServicesTwo.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".MRQIJ7H88-6Tfe2Ll0APDA\\=\\= {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin-top: 4em;\n  background-color: #3a6071;\n}\n\n._8XUOgHOZUs2bNzxgQt-LbQ\\=\\= {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.TvG8pBBNDbh5M35wI4XOxQ\\=\\= {\n  font-size: 36px;\n  color: #f89b1b;\n  margin-top: 1em;\n}\n\n._61fcVXs2gTBrTZvG8kS5PQ\\=\\= {\n  font-size: 48px;\n  margin-top: 1em;\n  color: #fff;\n}\n\n.\\+TqGqyukGk75Xo-UMJXOXw\\=\\= {\n  color: #fff;\n  width: 50%;\n  margin-top: 2em;\n}\n\n.Amg-g\\+2vVk5JFMHDwuN-yg\\=\\= {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  margin-top: 4em;\n}\n\n._8XUOgHOZUs2bNzxgQt-LbQ\\=\\= {\n  text-align: center;\n}\n\n.v6KgX7hgEezSS-8Jv5ku5w\\=\\= {\n  margin-inline: 2em;\n  margin-bottom: 3em;\n}\n\n.tDLyinPBzLDh7CBEjSpXlg\\=\\= {\n  height: 200px;\n  width: 200px;\n}", ""]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"root": "MRQIJ7H88-6Tfe2Ll0APDA==",
+	"container": "_8XUOgHOZUs2bNzxgQt-LbQ==",
+	"text": "TvG8pBBNDbh5M35wI4XOxQ==",
+	"title": "_61fcVXs2gTBrTZvG8kS5PQ==",
+	"description": "+TqGqyukGk75Xo-UMJXOXw==",
+	"servicesList": "Amg-g+2vVk5JFMHDwuN-yg==",
+	"iconContainer": "v6KgX7hgEezSS-8Jv5ku5w==",
+	"icon": "tDLyinPBzLDh7CBEjSpXlg=="
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -59769,6 +59907,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_Services_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./resources/js/components/ServicesTwo/ServicesTwo.module.scss":
+/*!*********************************************************************!*\
+  !*** ./resources/js/components/ServicesTwo/ServicesTwo.module.scss ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_ServicesTwo_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./ServicesTwo.module.scss */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/js/components/ServicesTwo/ServicesTwo.module.scss");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_ServicesTwo_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_ServicesTwo_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 
