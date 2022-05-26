@@ -1,0 +1,133 @@
+.root {
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainIcon {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.mainTitle {
+    font-size: 48px;
+    position: absolute;
+    top: 50px;
+    left: 170px;
+}
+
+.container {
+    height: 80%;
+    width: 92%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+    width: 90%;
+}
+
+.column {
+    width: 45%;
+}
+
+.pictureContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.pictureLeftContainer {
+    height: 90px;
+    width: 90px;
+    background-color: #e7e8e9;
+    border-radius: 10px;
+    margin-right: 1em;
+}
+.pictureRightContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button {
+    height: 42px;
+    width: 100px;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.dropdown {
+    height: 40px;
+    width: 98%;
+}
+
+.option {
+    width: 100%;
+    margin-left: 1em;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.input {
+    height: 40px;
+    width: 95%;
+    border: 1px solid #c3c3c3;
+    border-radius: 7px;
+    padding-left: 12px;
+    margin-top: 2em;
+}
+
+.buttonContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 2em;
+}
+
+.backButton {
+    width: 32%;
+    background-color: #f89b1b;
+    border-style: none;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.forwardButton {
+    width: 32%;
+    margin-left: 1em;
+    background-color: #ea4c46;
+    opacity: 0.9;
+    border-style: none;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+}

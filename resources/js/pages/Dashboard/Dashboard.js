@@ -8,6 +8,7 @@ import BenutzerAnlegen from "../../components/Benutzer/BenutzerAnlegen";
 import FirmenStandorte from "../../components/FirmenStandorte";
 import FirmenVerwalten from "../../components/FirmenVerwalten";
 import FirmendatenAnzeigen from "../../components/FirmendatenAnzeigen";
+import FirmendatenBearbeiten from "../../components/FirmendatenBearbeiten";
 
 const Dashboard = () => {
     return (
@@ -15,7 +16,7 @@ const Dashboard = () => {
             {/* Sidebar */}
             <Sidebar />
             {/* Main Container */}
-            <FirmendatenAnzeigen />
+            <FirmendatenBearbeiten />
         </div>
     );
 };
