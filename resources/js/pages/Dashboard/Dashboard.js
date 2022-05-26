@@ -9,6 +9,8 @@ import FirmenStandorte from "../../components/FirmenStandorte";
 import FirmenVerwalten from "../../components/FirmenVerwalten";
 import FirmendatenAnzeigen from "../../components/FirmendatenAnzeigen";
 import FirmendatenBearbeiten from "../../components/FirmendatenBearbeiten";
+import FirmendatenMitarbeiter from "../../components/FirmendatenMitarbeiter";
+import MenusVerwalten from "../../components/MenusVerwalten";
 
 const Dashboard = () => {
     return (
@@ -16,7 +18,7 @@ const Dashboard = () => {
             {/* Sidebar */}
             <Sidebar />
             {/* Main Container */}
-            <FirmendatenBearbeiten />
+            <MenusVerwalten />
         </div>
     );
 };
