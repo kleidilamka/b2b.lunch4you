@@ -13,6 +13,10 @@ import FirmendatenMitarbeiter from "../../components/FirmendatenMitarbeiter";
 import MenusVerwalten from "../../components/MenusVerwalten";
 import FirmenzuschusseVerwalten from "../../components/FirmenzuschusseVerwalten";
 import FirmenzuschusseAnlegen from "../../components/FirmenzuschusseAnlegen";
+import BestellungenVerwalten from "../../components/BestellungenVerwalten";
+import RechnungenVerwalten from "../../components/RechnungenVerwalten/RechnungenVerwalten";
+import ZahlungenVerwalten from "../../components/ZahlungenVerwalten";
+import LieferscheineVerwalten from "../../components/LieferscheineVerwalten";
 
 const Dashboard = () => {
     return (
@@ -20,7 +24,7 @@ const Dashboard = () => {
             {/* Sidebar */}
             <Sidebar />
             {/* Main Container */}
-            <BestellungenVerwalten />
+            <LieferscheineVerwalten />
         </div>
     );
 };
