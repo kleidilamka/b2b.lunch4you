@@ -1,10 +1,10 @@
 import React from "react";
-import TestBg from "../assets/testBg.png";
+import BgTest from "../assets/bgTest.png";
 
 const Test = () => {
     return (
         <div>
-            <img src={TestBg} style={{ height: 100, width: 100 }} />
+            <img src={BgTest} style={{ height: 100, width: 100 }} />
         </div>
     );
 };
