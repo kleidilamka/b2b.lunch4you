@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Navbar from "./components/Navbar";
+import Ubersicht from "./components/Ubersicht";
 import styles from "./Main.module.scss";
 import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";

@@ -6,28 +6,6 @@
     margin-bottom: 5em;
 }
 
-.sidebar {
-    background-color: #e7e8e9;
-    border: 1px solid green;
-    width: 20%;
-    padding-top: 2em;
-}
-
-.menuItem {
-    height: 60px;
-    border: 1px solid purple;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.menuIcon {
-    height: 50px;
-    width: 50px;
-    margin-left: 20px;
-}
-
 .wrapper {
     width: 80%;
     display: flex;
