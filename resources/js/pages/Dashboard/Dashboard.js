@@ -1,19 +1,13 @@
 import React from "react";
 import styles from "./Dashboard.module.scss";
 import SideBarIcon from "../../assets/sidebarIcon.png";
+import Sidebar from "../../components/Sidebar";
 
 const Dashboard = () => {
     return (
         <div class={styles.root}>
             {/* Sidebar */}
-            <div class={styles.sidebar}>
-                {Array.apply(null, { length: 13 }).map((e, i) => (
-                    <div class={styles.menuItem}>
-                        <img src={SideBarIcon} class={styles.menuIcon} />
-                        <h2>Übersicht</h2>
-                    </div>
-                ))}
-            </div>
+            <Sidebar />
             {/* Main Container */}
             <div class={styles.wrapper}>
                 <div class={styles.container}>
