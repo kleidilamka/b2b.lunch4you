@@ -1,0 +1,43 @@
+.root {
+    width: 80%;
+}
+
+.categoriesContainer {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
+    border: 1px solid #f89b1b;
+    border-radius: 12px;
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f89b1b;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: #fff;
+    height: 40px;
+}
+.bottomContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.inputs {
+    margin-bottom: 5px;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.label {
+    margin-left: 10px;
+}
