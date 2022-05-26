@@ -65,6 +65,7 @@
     background-color: transparent;
     border: 1px solid gray;
     border-radius: 10px;
+    padding-left: 10px;
 }
 
 .searchButton {
@@ -78,6 +79,10 @@
     border-style: none;
 }
 
+.buttonText {
+    color: #fff;
+    font-size: 18px;
+}
 .topRightContainer {
     height: 100%;
     width: 20%;

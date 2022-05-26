@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./BenutzerAnlegen.module.scss";
 import Icon from "../../../assets/sidebarIcon.png";
 import { AiOutlinePlusCircle } from "react-icons/ai";
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 const BenutzerAnlegen = () => {
+    const [active, setActive] = useState(false);
+
     return (
         <div class={styles.root}>
             <img src={Icon} class={styles.mainIcon} />
@@ -82,26 +85,51 @@ const BenutzerAnlegen = () => {
                         </div>
                     </div>
                     <div class={styles.column}>
-                        <h2>PROFILBILD</h2>
-                        <div class={styles.pictureContainer}>
-                            <select
-                                class={styles.dropdown}
-                                name="cars"
-                                id="cars"
+                        <h2>FUNKTION*</h2>
+                        <div class={styles.dropdownContainer}>
+                            <div
+                                onClick={() => setActive(true)}
+                                class={styles.dropdownSelector}
                             >
-                                <option class={styles.option} value="volvo">
-                                    Volvo
-                                </option>
-                                <option class={styles.option} value="saab">
-                                    Saab
-                                </option>
-                                <option class={styles.option} value="mercedes">
-                                    Mercedes
-                                </option>
-                                <option class={styles.option} value="audi">
-                                    Audi
-                                </option>
-                            </select>
+                                <h4>Teamleiter (extern)</h4>
+                                <MdOutlineKeyboardArrowDown size={20} />
+                            </div>
+                            {active && (
+                                <div class={styles.dropdown}>
+                                    <div class={styles.dropdownLabel}>
+                                        <h4
+                                            onClick={() => setActive(false)}
+                                            class={styles.dropdownLabel}
+                                        >
+                                            User (extern)
+                                        </h4>
+                                    </div>
+                                    <div class={styles.dropdownLabel}>
+                                        <h4
+                                            onClick={() => setActive(false)}
+                                            class={styles.dropdownLabel}
+                                        >
+                                            Administrator (intern)
+                                        </h4>
+                                    </div>
+                                    <div class={styles.dropdownLabel}>
+                                        <h4
+                                            onClick={() => setActive(false)}
+                                            class={styles.dropdownLabel}
+                                        >
+                                            Projektmitarbeiter (intern)
+                                        </h4>
+                                    </div>
+                                    <div class={styles.dropdownLabel}>
+                                        <h4
+                                            onClick={() => setActive(false)}
+                                            class={styles.dropdownLabel}
+                                        >
+                                            Buchhalter (intern)
+                                        </h4>
+                                    </div>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>
@@ -127,3 +155,26 @@ const BenutzerAnlegen = () => {
 };
 
 export default BenutzerAnlegen;
+
+{
+    /*
+<select
+                                class={styles.dropdown}
+                                name="cars"
+                                id="cars"
+                            >
+                                <option class={styles.option} value="volvo">
+                                    Volvo
+                                </option>
+                                <option class={styles.option} value="saab">
+                                    Saab
+                                </option>
+                                <option class={styles.option} value="mercedes">
+                                    Mercedes
+                                </option>
+                                <option class={styles.option} value="audi">
+                                    Audi
+                                </option>
+                            </select>
+*/
+}

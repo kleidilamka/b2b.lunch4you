@@ -26,7 +26,7 @@ const Dashboard = () => {
             {/* Sidebar */}
             <Sidebar />
             {/* Main Container */}
-            <BenachrichtigungenVerwalten />
+            <BenutzerAnlegen />
         </div>
     );
 };

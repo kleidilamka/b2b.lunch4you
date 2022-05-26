@@ -16,8 +16,16 @@ const AlleBenutzer = () => {
                             BENUTZER FILTERN
                         </h2>
                         <div class={styles.inputContainer}>
-                            <input class={styles.input} type="text" />
-                            <input class={styles.input} type="text" />
+                            <input
+                                placeholder="Vornamen auswählen"
+                                class={styles.input}
+                                type="text"
+                            />
+                            <input
+                                placeholder="Nachnamen auswählen"
+                                class={styles.input}
+                                type="text"
+                            />
                             <button class={styles.searchButton}>Suchen</button>
                         </div>
                     </div>
@@ -26,7 +34,7 @@ const AlleBenutzer = () => {
                             NEUER <br />
                             BENUTZER
                         </h2>
-                        <AiOutlinePlusCircle size={100} />
+                        <AiOutlinePlusCircle size={100} color={"#fff"} />
                     </div>
                 </div>
                 {/* Bottom Container */}
