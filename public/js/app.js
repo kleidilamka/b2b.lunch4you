@@ -5373,7 +5373,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Main_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Main.module.scss */ "./resources/js/Main.module.scss");
 /* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/Home */ "./resources/js/pages/Home/index.js");
 /* harmony import */ var _pages_Menus__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/Menus */ "./resources/js/pages/Menus/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _pages_ProductDetails__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/ProductDetails */ "./resources/js/pages/ProductDetails/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -5383,15 +5385,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Main() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_pages_Menus__WEBPACK_IMPORTED_MODULE_4__["default"], {})
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_pages_ProductDetails__WEBPACK_IMPORTED_MODULE_5__["default"], {})
   });
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Main);
 
 if (document.getElementById("main")) {
-  react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Main, {}), document.getElementById("main"));
+  react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(Main, {}), document.getElementById("main"));
 }
 
 /***/ }),
@@ -6597,6 +6599,306 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* reexport safe */ _Menus__WEBPACK_IMPORTED_MODULE_0__["default"])
 /* harmony export */ });
 /* harmony import */ var _Menus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Menus */ "./resources/js/pages/Menus/Menus.js");
+
+
+/***/ }),
+
+/***/ "./resources/js/pages/ProductDetails/ProductDetails.js":
+/*!*************************************************************!*\
+  !*** ./resources/js/pages/ProductDetails/ProductDetails.js ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProductDetails.module.scss */ "./resources/js/pages/ProductDetails/ProductDetails.module.scss");
+/* harmony import */ var _assets_foodBackground_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/foodBackground.jpeg */ "./resources/js/assets/foodBackground.jpeg");
+/* harmony import */ var _assets_Icon_Herz_dark_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/Icon_Herz_dark.svg */ "./resources/js/assets/Icon_Herz_dark.svg");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+
+
+
+
+var ProductDetails = function ProductDetails() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      active = _useState2[0],
+      setActive = _useState2[1];
+
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+    "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].root,
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+      "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].container,
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].topContainer,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+          "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].topLeftContainer,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
+            children: "THAI-CURRY"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h2", {
+            "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].text,
+            children: "Cremig, scharf und einfach ein Genuss! Die thail\xE4n- dische K\xFCche w\xE4re ohne ihr anregendes Thai Curry nur halb so ber\xFChmt."
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h2", {
+            "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].text,
+            children: "Das saftige H\xE4hnchenbrustfilet, knackiges Gem\xFC- se, cremige Kokosmilch sowie fluffiger Reis machen dieses Gericht zu einem echten Sattmacher. Zitro- nengras, Ingwer und Limette d\xFCrfen nicht fehlen und sorgen f\xFCr das authentische Thai-Feeling."
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+            "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].foodDetailsList,
+            children: Array.apply(null, {
+              length: 3
+            }).map(function (e, i) {
+              return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].foodDetailsContainer,
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+                  children: "Low Carb"
+                })
+              });
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h2", {
+            style: {
+              marginTop: 20,
+              marginBottom: 20
+            },
+            children: "N\xC4HRWERTE PRO 100 GRAMM"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+            "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].foodNutritionList,
+            children: Array.apply(null, {
+              length: 5
+            }).map(function (e, i) {
+              return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].foodNutritionDetails,
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                  "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].roundedLabel,
+                  children: "103"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+                  style: {
+                    alignSelf: "center",
+                    marginTop: 10
+                  },
+                  children: "PROTEIN"
+                })]
+              });
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+          "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].topRightContainer,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            src: _assets_foodBackground_jpeg__WEBPACK_IMPORTED_MODULE_2__["default"],
+            "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].mainImage
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+            "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].imagesContainer,
+            children: Array.apply(null, {
+              length: 3
+            }).map(function (e, i) {
+              return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                src: _assets_foodBackground_jpeg__WEBPACK_IMPORTED_MODULE_2__["default"],
+                "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].image
+              });
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+            "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].menuStyles,
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+              src: _assets_Icon_Herz_dark_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
+              "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].menuStyleLogo
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
+              children: "ASIA STYLE"
+            })]
+          })]
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].middleContainer,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          style: {
+            color: "#f89b1b",
+            marginBlock: 18,
+            fontSize: 24
+          },
+          children: "- ZUTATEN"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].descriptionContainer,
+          children: "H\xE4hnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2 %, Zuckerschoten 12,5 %, Paprika 12,5 %, Brokkoli 6,2 %, M\xF6hren 5,0 %, Zitronengras, gelbe Curry Paste 1,2 % (Knoblauch, Zitronengras, Salz, Schalotten, Thai-Ingwer, rote Chilischote, Korriandersamen, Kafir-Limettenschale, Currypulver, Kreuzk\xFCmmel, Zimt, Kurkuma, Kardamom, Muskatnuss), \xD6l, Salz, Curry 0,6 %, Ingwer, Limettensaft"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].boldText,
+          onClick: function onClick() {
+            return setActive(!active);
+          },
+          children: "+ ALLERGENE"
+        }), active && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          children: "H\xE4hnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2 %, Zuckerschoten 12,5 %, Paprika 12,5 %, Brokkoli 6,2 %, M\xF6hren 5,0 %, Zitronengras, gelbe Curry Paste 1,2 % (Knoblauch, Zitronengras, Salz, Schalotten, Thai-Ingwer, rote Chilischote, Korriandersamen, Kafir-Limettenschale, Currypulver, Kreuzk\xFCmmel, Zimt, Kurkuma, Kardamom, Muskatnuss), \xD6l, Salz, Curry 0,6 %, Ingwer, Limettensaft"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].boldText,
+          onClick: function onClick() {
+            return setActive(!active);
+          },
+          children: "+ N\xC4HRWERTE"
+        }), active && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          children: "H\xE4hnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2 %, Zuckerschoten 12,5 %, Paprika 12,5 %, Brokkoli 6,2 %, M\xF6hren 5,0 %, Zitronengras, gelbe Curry Paste 1,2 % (Knoblauch, Zitronengras, Salz, Schalotten, Thai-Ingwer, rote Chilischote, Korriandersamen, Kafir-Limettenschale, Currypulver, Kreuzk\xFCmmel, Zimt, Kurkuma, Kardamom, Muskatnuss), \xD6l, Salz, Curry 0,6 %, Ingwer, Limettensaft"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].boldText,
+          onClick: function onClick() {
+            return setActive(!active);
+          },
+          children: "+ ALLERGENE"
+        }), active && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          children: "H\xE4hnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2 %, Zuckerschoten 12,5 %, Paprika 12,5 %, Brokkoli 6,2 %, M\xF6hren 5,0 %, Zitronengras, gelbe Curry Paste 1,2 % (Knoblauch, Zitronengras, Salz, Schalotten, Thai-Ingwer, rote Chilischote, Korriandersamen, Kafir-Limettenschale, Currypulver, Kreuzk\xFCmmel, Zimt, Kurkuma, Kardamom, Muskatnuss), \xD6l, Salz, Curry 0,6 %, Ingwer, Limettensaft"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].boldText,
+          onClick: function onClick() {
+            return setActive(!active);
+          },
+          children: "+ ALLERGENE"
+        }), active && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          children: "H\xE4hnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2 %, Zuckerschoten 12,5 %, Paprika 12,5 %, Brokkoli 6,2 %, M\xF6hren 5,0 %, Zitronengras, gelbe Curry Paste 1,2 % (Knoblauch, Zitronengras, Salz, Schalotten, Thai-Ingwer, rote Chilischote, Korriandersamen, Kafir-Limettenschale, Currypulver, Kreuzk\xFCmmel, Zimt, Kurkuma, Kardamom, Muskatnuss), \xD6l, Salz, Curry 0,6 %, Ingwer, Limettensaft"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          style: {
+            marginBlock: 18,
+            fontSize: 24
+          },
+          children: "FAQ"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].boldText,
+          onClick: function onClick() {
+            return setActive(!active);
+          },
+          children: "+ WIE & WANN LIEFERT LUNCH4YOU?"
+        }), active && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          children: "H\xE4hnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2 %, Zuckerschoten 12,5 %, Paprika 12,5 %, Brokkoli 6,2 %, M\xF6hren 5,0 %, Zitronengras, gelbe Curry Paste 1,2 % (Knoblauch, Zitronengras, Salz, Schalotten, Thai-Ingwer, rote Chilischote, Korriandersamen, Kafir-Limettenschale, Currypulver, Kreuzk\xFCmmel, Zimt, Kurkuma, Kardamom, Muskatnuss), \xD6l, Salz, Curry 0,6 %, Ingwer, Limettensaft"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].boldText,
+          onClick: function onClick() {
+            return setActive(!active);
+          },
+          children: "+ WIE BEREITE ICH MEINE MEN\xDCS ZU?"
+        }), active && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          children: "H\xE4hnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2 %, Zuckerschoten 12,5 %, Paprika 12,5 %, Brokkoli 6,2 %, M\xF6hren 5,0 %, Zitronengras, gelbe Curry Paste 1,2 % (Knoblauch, Zitronengras, Salz, Schalotten, Thai-Ingwer, rote Chilischote, Korriandersamen, Kafir-Limettenschale, Currypulver, Kreuzk\xFCmmel, Zimt, Kurkuma, Kardamom, Muskatnuss), \xD6l, Salz, Curry 0,6 %, Ingwer, Limettensaft"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].boldText,
+          onClick: function onClick() {
+            return setActive(!active);
+          },
+          children: "+ WOHER KOMMEN EURE ZUTATEN?"
+        }), active && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          children: "H\xE4hnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2 %, Zuckerschoten 12,5 %, Paprika 12,5 %, Brokkoli 6,2 %, M\xF6hren 5,0 %, Zitronengras, gelbe Curry Paste 1,2 % (Knoblauch, Zitronengras, Salz, Schalotten, Thai-Ingwer, rote Chilischote, Korriandersamen, Kafir-Limettenschale, Currypulver, Kreuzk\xFCmmel, Zimt, Kurkuma, Kardamom, Muskatnuss), \xD6l, Salz, Curry 0,6 %, Ingwer, Limettensaft"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].boldText,
+          onClick: function onClick() {
+            return setActive(!active);
+          },
+          children: "+ WIE LANGE IST MEIN MEN\xDC HALTBAR?"
+        }), active && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+          children: "H\xE4hnchenfleisch 22,4 %, Kokosmilch 18,7 %, Reis 16,2 %, Zuckerschoten 12,5 %, Paprika 12,5 %, Brokkoli 6,2 %, M\xF6hren 5,0 %, Zitronengras, gelbe Curry Paste 1,2 % (Knoblauch, Zitronengras, Salz, Schalotten, Thai-Ingwer, rote Chilischote, Korriandersamen, Kafir-Limettenschale, Currypulver, Kreuzk\xFCmmel, Zimt, Kurkuma, Kardamom, Muskatnuss), \xD6l, Salz, Curry 0,6 %, Ingwer, Limettensaft"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+          "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cartContainer,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+            "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].quantityContainer,
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+              "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].quantityLeftContainer,
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+                style: {
+                  marginBlock: 12
+                },
+                children: "ANZAHL"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].quantity,
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                  "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].minusPlus,
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+                    children: "-"
+                  })
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+                  children: "4"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                  "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].minusPlus,
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+                    children: "+"
+                  })
+                })]
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+              "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].priceContainer,
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+                style: {
+                  marginBlock: 12
+                },
+                children: "PREIS"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+                children: "\u20AC 8,50"
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+            "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].gesamtContainer,
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+              style: {
+                marginBlock: 12
+              },
+              children: "Gesamt"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+              children: "\u20AC 34,00"
+            })]
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+          "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].buttonContainer,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("button", {
+            "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].backButton,
+            children: "ZUR\xDCCK"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("button", {
+            "class": _ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].addToCart,
+            children: "IN DEN WARENKORB"
+          })]
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h2", {
+        style: {
+          color: "#f89b1b",
+          textAlign: "center",
+          marginTop: 32
+        },
+        children: "MEHR INSPIRATION GEF\xC4LLIG?"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h2", {
+        style: {
+          fontSize: 48,
+          textAlign: "center",
+          marginTop: 32
+        },
+        children: "DIESE GERICHTE K\xD6NNTEN DIE AUCH GEFALLEN."
+      })]
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProductDetails);
+
+/***/ }),
+
+/***/ "./resources/js/pages/ProductDetails/index.js":
+/*!****************************************************!*\
+  !*** ./resources/js/pages/ProductDetails/index.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _ProductDetails__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _ProductDetails__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProductDetails */ "./resources/js/pages/ProductDetails/ProductDetails.js");
 
 
 /***/ }),
@@ -12054,6 +12356,58 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/js/pages/ProductDetails/ProductDetails.module.scss":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/js/pages/ProductDetails/ProductDetails.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".T\\+Zh659w6QxogKwA3BASLA\\=\\= {\n  background-color: #f6f4ed;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n}\n\n.lfJnZBbijraOJTGCca3dgA\\=\\= {\n  margin-top: 5em;\n  height: 80%;\n  width: 60%;\n  margin-bottom: 200px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.myDMkrIIljBtitydSrAL2Q\\=\\= {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n}\n\n.VT\\+7riq0tfN2TejwuYubGA\\=\\= {\n  display: flex;\n  flex-direction: column;\n  width: 54%;\n}\n\n._63pjmSrSgO39aPhxHaBtTQ\\=\\= {\n  color: #3c3c3c;\n  font-weight: 400;\n  margin-top: 0.5em;\n  width: 95%;\n}\n\n.dBcCKJRJhBAADmXGSZ5h8g\\=\\= {\n  display: flex;\n  flex-direction: column;\n  width: 45%;\n  margin-bottom: 4em;\n}\n\n.Q\\+RIOnRO7NbOx9\\+56th0Ew\\=\\= {\n  height: 300px;\n}\n\n._1\\+cBW\\+wORIrxO6DULHHbbA\\=\\= {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n}\n\n._6II-WYRldBB7NzL0bsx5Ig\\=\\= {\n  width: 30%;\n  margin-top: 1em;\n}\n\n.tVxwFDuMQdGtptgerP9XLg\\=\\= {\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n}\n\n.M4WMRVvNa9287tql9g80uw\\=\\= {\n  border: 1px solid black;\n  border-radius: 12px;\n  padding: 5px;\n  margin-top: 50px;\n  margin-right: 30px;\n}\n\n.xhEYeae43IArkIVFEM6yFA\\=\\= {\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n}\n\n.so2uccBRSC4\\+UXvWWnGqHQ\\=\\= {\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n\n._4tqE4Kzp9nMyyPf6bNBi7Q\\=\\= {\n  height: 80px;\n  width: 80px;\n  background-color: #3c3c3c;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: #fff;\n  border-radius: 50%;\n  font-size: 24px;\n  margin-right: 10px;\n}\n\n.G2MWn7DKzf7SjawUmS24Ow\\=\\= {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-end;\n  justify-content: flex-end;\n}\n\n.dOsqVh2m1fQMqhm7jn0mog\\=\\= {\n  height: 100px;\n  width: 100px;\n  margin-right: 50px;\n}\n\n.temfV0ffaLhdhNPoaQ7kvQ\\=\\= {\n  width: 95%;\n}\n\n.gP1uaWGkIZl3hvau5ZWBAg\\=\\= {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  width: 35%;\n}\n\n.xU179LbFiRHt9X9rqaep0w\\=\\= {\n  display: flex;\n  flex-direction: column;\n}\n\n.jDQxqRPs8KfbOGZFMAQUFw\\=\\= {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  border: 1px solid #f89b1b;\n  border-radius: 12px;\n  height: 30px;\n  width: 100px;\n}\n\n._2YeUraWRysiOafDQk-aOoA\\=\\= {\n  background-color: #f89b1b;\n  width: 30%;\n  text-align: center;\n  color: #fff;\n  height: 100%;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n}\n\n.DYL5zJGvw834heLAgbFkuA\\=\\= {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n}\n\n.NC6\\+DpOq5LTYI4YN-VLrkg\\=\\= {\n  font-size: 24px;\n  margin-block: 0.5em;\n}\n\n.\\-4ALWcPpH9YJAGsrA97l-g\\=\\= {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  margin-top: 2em;\n}\n\n._2HXZBIQcBPESCnDZMFGO3Q\\=\\= {\n  background-color: #ea4c46;\n  opacity: 0.8;\n  border-style: none;\n  height: 50px;\n  width: 200px;\n  color: #fff;\n  font-size: 18px;\n  font-weight: bold;\n}\n\n.RyK9ZWWLtULl5bVdz\\+5Gdw\\=\\= {\n  background-color: #f89b1b;\n  border-style: none;\n  height: 50px;\n  width: 300px;\n  color: #fff;\n  font-size: 18px;\n  font-weight: bold;\n}", ""]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"root": "T+Zh659w6QxogKwA3BASLA==",
+	"container": "lfJnZBbijraOJTGCca3dgA==",
+	"topContainer": "myDMkrIIljBtitydSrAL2Q==",
+	"topLeftContainer": "VT+7riq0tfN2TejwuYubGA==",
+	"text": "_63pjmSrSgO39aPhxHaBtTQ==",
+	"topRightContainer": "dBcCKJRJhBAADmXGSZ5h8g==",
+	"mainImage": "Q+RIOnRO7NbOx9+56th0Ew==",
+	"imagesContainer": "_1+cBW+wORIrxO6DULHHbbA==",
+	"image": "_6II-WYRldBB7NzL0bsx5Ig==",
+	"foodDetailsList": "tVxwFDuMQdGtptgerP9XLg==",
+	"foodDetailsContainer": "M4WMRVvNa9287tql9g80uw==",
+	"foodNutritionList": "xhEYeae43IArkIVFEM6yFA==",
+	"foodNutritionDetails": "so2uccBRSC4+UXvWWnGqHQ==",
+	"roundedLabel": "_4tqE4Kzp9nMyyPf6bNBi7Q==",
+	"menuStyles": "G2MWn7DKzf7SjawUmS24Ow==",
+	"menuStyleLogo": "dOsqVh2m1fQMqhm7jn0mog==",
+	"descriptionContainer": "temfV0ffaLhdhNPoaQ7kvQ==",
+	"quantityContainer": "gP1uaWGkIZl3hvau5ZWBAg==",
+	"quantityLeftContainer": "xU179LbFiRHt9X9rqaep0w==",
+	"quantity": "jDQxqRPs8KfbOGZFMAQUFw==",
+	"minusPlus": "_2YeUraWRysiOafDQk-aOoA==",
+	"cartContainer": "DYL5zJGvw834heLAgbFkuA==",
+	"boldText": "NC6+DpOq5LTYI4YN-VLrkg==",
+	"buttonContainer": "-4ALWcPpH9YJAGsrA97l-g==",
+	"backButton": "_2HXZBIQcBPESCnDZMFGO3Q==",
+	"addToCart": "RyK9ZWWLtULl5bVdz+5Gdw=="
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/runtime/api.js":
 /*!*****************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/api.js ***!
@@ -12127,6 +12481,21 @@ module.exports = function (cssWithMappingToString) {
 
   return list;
 };
+
+/***/ }),
+
+/***/ "./resources/js/assets/Icon_Herz_dark.svg":
+/*!************************************************!*\
+  !*** ./resources/js/assets/Icon_Herz_dark.svg ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/Icon_Herz_dark.svg?aa0d9d0d585c8f847637e806c50e7997");
 
 /***/ }),
 
@@ -67945,6 +68314,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_Menus_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./resources/js/pages/ProductDetails/ProductDetails.module.scss":
+/*!**********************************************************************!*\
+  !*** ./resources/js/pages/ProductDetails/ProductDetails.module.scss ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./ProductDetails.module.scss */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/js/pages/ProductDetails/ProductDetails.module.scss");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_ProductDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 

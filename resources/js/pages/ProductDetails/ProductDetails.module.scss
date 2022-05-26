@@ -1,0 +1,191 @@
+.root {
+    background-color: #f6f4ed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    // background-color: #fff;
+    margin-top: 5em;
+    height: 80%;
+    width: 60%;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topLeftContainer {
+    display: flex;
+    flex-direction: column;
+    width: 54%;
+}
+
+.text {
+    color: #3c3c3c;
+    font-weight: 400;
+    margin-top: 0.5em;
+    width: 95%;
+}
+
+.topRightContainer {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-bottom: 4em;
+}
+
+.mainImage {
+    height: 300px;
+}
+
+.imagesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image {
+    width: 30%;
+    margin-top: 1em;
+}
+
+.foodDetailsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.foodDetailsContainer {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.foodNutritionList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.foodNutritionDetails {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.roundedLabel {
+    height: 80px;
+    width: 80px;
+    background-color: #3c3c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.menuStyles {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.menuStyleLogo {
+    height: 100px;
+    width: 100px;
+    margin-right: 50px;
+}
+
+.descriptionContainer {
+    width: 95%;
+}
+
+.quantityContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.quantityLeftContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #f89b1b;
+    border-radius: 12px;
+    height: 30px;
+    width: 100px;
+}
+
+.minusPlus {
+    background-color: #f89b1b;
+    width: 30%;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boldText {
+    font-size: 24px;
+    margin-block: 0.5em;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.backButton {
+    background-color: #ea4c46;
+    opacity: 0.8;
+    border-style: none;
+    height: 50px;
+    width: 200px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.addToCart {
+    background-color: #f89b1b;
+    border-style: none;
+    height: 50px;
+    width: 300px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
