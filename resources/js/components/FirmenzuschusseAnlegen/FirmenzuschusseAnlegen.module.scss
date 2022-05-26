@@ -1,0 +1,89 @@
+.root {
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mainIcon {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.mainTitle {
+    font-size: 48px;
+    position: absolute;
+    top: 50px;
+    left: 170px;
+}
+
+.container {
+    width: 92%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+    width: 90%;
+}
+
+.column {
+    width: 45%;
+}
+
+.input {
+    height: 40px;
+    width: 95%;
+    border: 1px solid #c3c3c3;
+    border-radius: 7px;
+    padding-left: 12px;
+    margin-top: 2em;
+}
+
+.buttonsContainer {
+    width: 45%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.backButton {
+    width: 45%;
+    background-color: #f89b1b;
+    border-style: none;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.forwardButton {
+    width: 45%;
+    margin-left: 1em;
+    background-color: #ea4c46;
+    opacity: 0.9;
+    border-style: none;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+}

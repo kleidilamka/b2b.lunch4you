@@ -11,6 +11,8 @@ import FirmendatenAnzeigen from "../../components/FirmendatenAnzeigen";
 import FirmendatenBearbeiten from "../../components/FirmendatenBearbeiten";
 import FirmendatenMitarbeiter from "../../components/FirmendatenMitarbeiter";
 import MenusVerwalten from "../../components/MenusVerwalten";
+import FirmenzuschusseVerwalten from "../../components/FirmenzuschusseVerwalten";
+import FirmenzuschusseAnlegen from "../../components/FirmenzuschusseAnlegen";
 
 const Dashboard = () => {
     return (
@@ -18,7 +20,7 @@ const Dashboard = () => {
             {/* Sidebar */}
             <Sidebar />
             {/* Main Container */}
-            <MenusVerwalten />
+            <BestellungenVerwalten />
         </div>
     );
 };
