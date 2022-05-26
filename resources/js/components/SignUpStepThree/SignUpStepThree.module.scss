@@ -1,0 +1,81 @@
+.root {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-bottom: 5em;
+}
+
+.bigTitle {
+    font-size: 36px;
+    margin: 0.8em;
+}
+
+.title {
+    margin-block: 1em;
+    font-weight: 800;
+}
+
+.text {
+    font-weight: 400;
+    color: #3c3c3c;
+}
+
+.container {
+    height: 95%;
+    width: 95%;
+    align-self: center;
+    margin-bottom: 2em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-block: 2em;
+}
+
+.image {
+    height: 80px;
+    margin-bottom: 2em;
+}
+
+.backButton {
+    border-style: none;
+    color: #fff;
+    height: 60px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #ea4c46;
+    opacity: 0.9;
+}
+
+.forwardButton {
+    border-style: none;
+    color: #fff;
+    height: 60px;
+    width: 300px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #f89b1b;
+}
+
+.checkbox {
+    margin-block: 1em;
+}
+
+.label {
+    margin-left: 0.5em;
+    font-size: 18px;
+    margin-block: 2em;
+    font-weight: 800;
+}
+
+.input {
+    height: 40px;
+    padding-left: 12px;
+    width: 200px;
+    border-radius: 12px;
+    border: 1px solid #c3c3c3;
+}

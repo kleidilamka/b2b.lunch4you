@@ -1,0 +1,61 @@
+.root {
+    background-color: #f6f4ed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 800px;
+}
+
+.stepsContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.dashedLine {
+    width: 35%;
+    border: 1px dotted #f89b1b;
+    border-style: dashed;
+}
+
+.step {
+    border: 2px solid #f89b1b;
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    margin-inline: 10px;
+    height: 25px;
+    font-size: 24px;
+}
+
+.title {
+    font-size: 32px;
+    color: #f89b1b;
+    margin-top: 2em;
+}
+
+.bigTitle {
+    font-size: 48px;
+    margin-bottom: 1em;
+}
+
+.iconsContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icon {
+    height: 180px;
+    width: 180px;
+}
