@@ -7,15 +7,16 @@
 }
 
 .container {
-    // background-color: #fff;
+    background-color: #fff;
     margin-top: 5em;
-    height: 80%;
-    width: 60%;
+    height: 85%;
+    width: 70%;
     margin-bottom: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 4em;
 }
 
 .topContainer {
@@ -77,6 +78,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin-top: 2em;
 }
 
 .foodNutritionDetails {
@@ -104,6 +106,7 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
+    margin-top: 2em;
 }
 
 .menuStyleLogo {
@@ -116,76 +119,7 @@
     width: 95%;
 }
 
-.quantityContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 35%;
-}
-
-.quantityLeftContainer {
-    display: flex;
-    flex-direction: column;
-}
-
-.quantity {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #f89b1b;
-    border-radius: 12px;
-    height: 30px;
-    width: 100px;
-}
-
-.minusPlus {
-    background-color: #f89b1b;
-    width: 30%;
-    text-align: center;
-    color: #fff;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.cartContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .boldText {
     font-size: 24px;
     margin-block: 0.5em;
-}
-
-.buttonContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 2em;
-}
-
-.backButton {
-    background-color: #ea4c46;
-    opacity: 0.8;
-    border-style: none;
-    height: 50px;
-    width: 200px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.addToCart {
-    background-color: #f89b1b;
-    border-style: none;
-    height: 50px;
-    width: 300px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
 }
