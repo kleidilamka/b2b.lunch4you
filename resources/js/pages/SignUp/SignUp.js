@@ -6,7 +6,7 @@ import styles from "./SignUp.module.scss";
 import ForkIcon from "../../assets/forkIcon.svg";
 
 const SignUp = () => {
-    const [step, setStep] = useState(3);
+    const [step, setStep] = useState(1);
 
     return (
         <div class={styles.root}>
@@ -49,20 +49,13 @@ const SignUp = () => {
             ) : step === 3 ? (
                 <SignUpStepThree setStep={setStep} />
             ) : (
-                <div class={styles.iconsContainer}>
-                    <img src={ForkIcon} class={styles.icon} />
-                    <div class={styles.dashedLine} />
-                    <img src={ForkIcon} class={styles.icon} />
-
-                    <div class={styles.dashedLine} />
-
-                    <img src={ForkIcon} class={styles.icon} />
-                </div>
-            )}
-            {step === 4 && (
-                <div>
+                <div class={styles.container}>
                     <h4 style={{ marginTop: 24, fontSize: 18 }}>
-                        Deine Lieferung erfolgt am 17.11.2021, ca. 9.00 Uhr
+                        Du erhälst Deine Zugangsdaten per E-Mail. <br />
+                        Bitte loggen Dich damit in unserem Anmeldebereich ein.{" "}
+                    </h4>
+                    <h4 style={{ marginTop: 36, fontSize: 18 }}>
+                        Dein Team von Lunch4You.
                     </h4>
                 </div>
             )}

@@ -46,16 +46,10 @@
     margin-bottom: 1em;
 }
 
-.iconsContainer {
-    width: 50%;
+.container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 20px;
-}
-
-.icon {
-    height: 180px;
-    width: 180px;
+    text-align: center;
 }
