@@ -12,7 +12,7 @@ function Main() {
     return (
         <div>
             <Navbar />
-            <ProductDetails />
+            <SignUp />
         </div>
     );
 }
