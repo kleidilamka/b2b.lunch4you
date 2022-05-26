@@ -186,7 +186,76 @@ const Dashboard = () => {
                     </div>
                 </div>
                 {/* Filter Container */}
-                <div class={styles.filterContainer}></div>
+                <div class={styles.filterWrapper}>
+                    <div class={styles.filterContainer}>
+                        <div class={styles.filterRow}>
+                            <h4 class={styles.filterTitle}>
+                                FILTER <br />
+                                BESTELLUNGEN
+                            </h4>
+                            <div class={styles.inputContainer}>
+                                <input type="checkbox" />
+                                <label class={styles.label}>Heute </label>
+                            </div>
+                            <div class={styles.inputContainer}>
+                                <input type="checkbox" />
+                                <label class={styles.label}>Diese Woche </label>
+                            </div>
+                            <div class={styles.inputContainer}>
+                                <input type="checkbox" />
+                                <label class={styles.label}>Diese Monat </label>
+                            </div>
+                            <div class={styles.inputContainer}>
+                                <input type="checkbox" />
+                                <label class={styles.label}>Alle </label>
+                            </div>
+                        </div>{" "}
+                        <div class={styles.filterRow}>
+                            <h4 class={styles.filterTitle}>
+                                FILTER <br />
+                                RECHNUNGEN
+                            </h4>
+                            <div class={styles.inputContainer}>
+                                <input type="checkbox" />
+                                <label class={styles.label}>Heute </label>
+                            </div>
+                            <div class={styles.inputContainer}>
+                                <input type="checkbox" />
+                                <label class={styles.label}>Diese Woche </label>
+                            </div>
+                            <div class={styles.inputContainer}>
+                                <input type="checkbox" />
+                                <label class={styles.label}>Diese Monat </label>
+                            </div>
+                            <div class={styles.inputContainer}>
+                                <input type="checkbox" />
+                                <label class={styles.label}>Alle </label>
+                            </div>
+                        </div>{" "}
+                        <div class={styles.filterRow}>
+                            <h4 class={styles.filterTitle}>
+                                FILTER <br />
+                                ZAHLUNGEN
+                            </h4>
+                            <div class={styles.inputContainer}>
+                                <input type="checkbox" />
+                                <label class={styles.label}>Heute </label>
+                            </div>
+                            <div class={styles.inputContainer}>
+                                <input type="checkbox" />
+                                <label class={styles.label}>Diese Woche </label>
+                            </div>
+                            <div class={styles.inputContainer}>
+                                <input type="checkbox" />
+                                <label class={styles.label}>Diese Monat </label>
+                            </div>
+                            <div class={styles.inputContainer}>
+                                <input type="checkbox" />
+                                <label class={styles.label}>Alle </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

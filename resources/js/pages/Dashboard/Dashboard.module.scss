@@ -39,16 +39,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
     position: relative;
 }
 
 .mainContainer {
     width: 95%;
-    border: 1px solid yellowgreen;
     background-color: #e7e8e9;
     position: relative;
     margin-top: 6em;
+    border-radius: 10px;
 }
 
 .topContainer {
@@ -58,7 +57,6 @@
 }
 
 .infoContainer {
-    border: 1px solid red;
     height: 200px;
     width: 30%;
     border-radius: 10px;
@@ -161,7 +159,42 @@
     top: -20px;
 }
 
-.filterContainer {
+.filterWrapper {
     width: 25%;
-    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.filterContainer {
+    height: 86.5%;
+    width: 75%;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.filterRow {
+    height: 30%;
+    padding: 1em;
+}
+
+.filterTitle {
+    font-size: 24;
+    color: darkgrey;
+    margin-bottom: 2em;
+}
+
+.inputContainer {
+    margin-top: 1em;
+}
+
+.label {
+    margin-left: 10px;
+    color: darkgrey;
+    font-size: 18px;
 }
