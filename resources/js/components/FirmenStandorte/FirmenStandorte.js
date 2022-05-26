@@ -13,7 +13,7 @@ const FirmenStandorte = () => {
                 <div class={styles.topContainer}>
                     <div class={styles.topLeftContainer}>
                         <h2 style={{ position: "absolute", top: 20, left: 25 }}>
-                            STABDORTE FILTERN{" "}
+                            STANDORTE FILTERN
                         </h2>
                         <div class={styles.inputContainer}>
                             <input
