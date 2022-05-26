@@ -15,6 +15,7 @@ function Main() {
         <div>
             <Navbar />
             <Dashboard />
+            <Test />
         </div>
     );
 }
