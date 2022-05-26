@@ -5,25 +5,23 @@ import SignUpStepTwo from "../../components/SignUpStepTwo";
 import styles from "./SignUp.module.scss";
 import ForkIcon from "../../assets/forkIcon.svg";
 
-const Checkout = () => {
-    const [step, setStep] = useState(1);
+const SignUp = () => {
+    const [step, setStep] = useState(3);
 
     return (
         <div class={styles.root}>
             {step === 4 ? (
                 <div style={{ textAlign: "center" }}>
-                    <h2 class={styles.title}>
-                        JETZT SCHWINGEN WIR DIE KOCHLÖFFEL.
-                    </h2>
+                    <h2 class={styles.title}>SCHON GESCHAFFT.</h2>
                     <h2 class={styles.bigTitle}>
-                        VIELEN DANK FÜR DEINE BESTELLUNG.{" "}
+                        VIELEN DANK FÜR IHRE REGISTRIERUNG.
                     </h2>
                 </div>
             ) : (
                 <div style={{ textAlign: "center" }}>
-                    <h2 class={styles.title}>LOS GEHT'S.</h2>
+                    <h2 class={styles.title}>LUST AUF LUNCH4YOU?</h2>
                     <h2 class={styles.bigTitle}>
-                        DEINE BESTELLUNG IN NUR 3 SCHRITTEN.
+                        DANN EINFACH REGISTRIEREN UND LOS GEHT'S.
                     </h2>
                 </div>
             )}
@@ -72,4 +70,4 @@ const Checkout = () => {
     );
 };
 
-export default Checkout;
+export default SignUp;

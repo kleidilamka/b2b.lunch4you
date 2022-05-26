@@ -25,17 +25,17 @@ const SignUpStepTwo = ({ setStep }) => {
                         {/* First Row */}
                         <div class={styles.row}>
                             <div class={styles.column}>
-                                <h2>VORNAME*</h2>
+                                <h2>FIRMENNAME*</h2>
                                 <input
                                     class={styles.input}
-                                    placeholder="Vornamen eingeben"
+                                    placeholder="Firmennamen eingeben"
                                 />
                             </div>
                             <div class={styles.column}>
-                                <h2>NACHNAME*</h2>
+                                <h2>ANSPRECHPARTNER*</h2>
                                 <input
                                     class={styles.input}
-                                    placeholder="Nachnamen eingeben"
+                                    placeholder="E-Mail eingeben"
                                 />
                             </div>
                         </div>
@@ -119,54 +119,6 @@ const SignUpStepTwo = ({ setStep }) => {
                                 WEITER ZU SCHRITT 3 VON 3
                             </button>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            {/* Login Container */}
-            <div class={styles.signUpContainer}>
-                <h2 class={styles.title} style={{ color: "#f89b1b" }}>
-                    BEREITS KUNDE?
-                </h2>
-                <div class={styles.container}>
-                    <hr />
-                    <div class={styles.loginContainer}>
-                        {/* First Row */}
-                        <div class={styles.row}>
-                            <div class={styles.column}>
-                                <h2>VORNAME*</h2>
-                                <input
-                                    class={styles.input}
-                                    placeholder="Vornamen eingeben"
-                                />
-                            </div>
-                            <div class={styles.column}>
-                                <h2>NACHNAME*</h2>
-                                <input
-                                    class={styles.input}
-                                    placeholder="Nachnamen eingeben"
-                                />
-                            </div>
-                        </div>
-                        {/* Button  Row */}
-                        <div class={styles.buttonContainer}>
-                            <button
-                                onClick={() => setStep(1)}
-                                class={styles.backButton}
-                            >
-                                ZURÜCK
-                            </button>
-                            <button
-                                onClick={() => setStep(3)}
-                                class={styles.forwardButton}
-                                style={{ width: 200 }}
-                            >
-                                ANMELDEN
-                            </button>
-                        </div>
-                        <h2 class={styles.forgetPassword}>
-                            Passwort Vergessen?
-                        </h2>
                     </div>
                 </div>
             </div>
