@@ -5,6 +5,7 @@ import Sidebar from "../../components/Sidebar";
 import Ubersicht from "../../components/Ubersicht";
 import AlleBenutzer from "../../components/Benutzer/AlleBenutzer";
 import BenutzerAnlegen from "../../components/Benutzer/BenutzerAnlegen";
+import FirmenStandorte from "../../components/FirmenStandorte";
 
 const Dashboard = () => {
     return (
@@ -12,7 +13,7 @@ const Dashboard = () => {
             {/* Sidebar */}
             <Sidebar />
             {/* Main Container */}
-            <BenutzerAnlegen />
+            <FirmenStandorte />
         </div>
     );
 };
