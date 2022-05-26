@@ -17,6 +17,8 @@ import BestellungenVerwalten from "../../components/BestellungenVerwalten";
 import RechnungenVerwalten from "../../components/RechnungenVerwalten/RechnungenVerwalten";
 import ZahlungenVerwalten from "../../components/ZahlungenVerwalten";
 import LieferscheineVerwalten from "../../components/LieferscheineVerwalten";
+import BestellbonsVerwalten from "../../components/BestellbonsVerwalten";
+import BenachrichtigungenVerwalten from "../../components/BenachrichtigungenVerwalten";
 
 const Dashboard = () => {
     return (
@@ -24,7 +26,7 @@ const Dashboard = () => {
             {/* Sidebar */}
             <Sidebar />
             {/* Main Container */}
-            <LieferscheineVerwalten />
+            <BenachrichtigungenVerwalten />
         </div>
     );
 };
