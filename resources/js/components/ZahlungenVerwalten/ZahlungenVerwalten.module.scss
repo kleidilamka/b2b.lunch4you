@@ -1,6 +1,13 @@
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5em;
+}
+
 .root {
     width: 80%;
-    border: 1px solid red;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -26,7 +33,6 @@
 .container {
     height: 80%;
     width: 92%;
-    border: 1px solid green;
     margin-top: 200px;
     display: flex;
     flex-direction: column;
@@ -102,5 +108,4 @@
 .bottomContainer {
     height: 60%;
     width: 100%;
-    border: 1px solid purple;
 }
