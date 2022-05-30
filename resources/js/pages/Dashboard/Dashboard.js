@@ -26,8 +26,6 @@ const Dashboard = () => {
         <div class={styles.root}>
             {/* Sidebar */}
             <Sidebar />
-            {/* Main Container */}
-            <ZahlungenVerwalten />
         </div>
     );
 };

@@ -1,13 +1,12 @@
 .sidebar {
     background-color: #e7e8e9;
-    border: 1px solid green;
     width: 20%;
     padding-top: 2em;
+    height: 1000px;
 }
 
 .menuItem {
     height: 60px;
-    border: 1px solid purple;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -18,4 +17,33 @@
     height: 50px;
     width: 50px;
     margin-left: 20px;
+    margin-right: 20px;
+}
+
+.removeUnderline {
+    text-decoration: none;
+    color: inherit;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 20px;
+}
+
+.dropdownContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.empty {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 20px;
 }

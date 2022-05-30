@@ -2,8 +2,15 @@ import React from "react";
 import styles from "./Hero.module.scss";
 import MainImage from "../../assets/mainImage.jpeg";
 import ServicesImage from "../../assets/servicesImage.png";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+    const navigate = useNavigate();
+
+    const goToSignUp = () => {
+        navigate("/signup");
+    };
+
     return (
         <div class={styles.root}>
             {/* Background Image */}
@@ -41,7 +48,10 @@ const Hero = () => {
                         Oder ob Sie eine individuelle Bezuschussung wünschen -
                         wir haben die Lösung für Sie.
                     </h4>
-                    <button class={`${styles.button} ${styles.font}`}>
+                    <button
+                        class={`${styles.button} ${styles.font}`}
+                        onClick={goToSignUp}
+                    >
                         JETZT REGISTRIEREN
                     </button>
                 </div>
