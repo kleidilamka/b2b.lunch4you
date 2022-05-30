@@ -7,10 +7,13 @@ import styles from "./Menus.module.scss";
 const Menus = () => {
     return (
         <div class={styles.root}>
-            <h2 style={{ color: "#F89B1B" }}>
+            <h2 class={styles.font} style={{ color: "#F89B1B", fontSize: 48 }}>
                 FÜR JEDEN GESCHMACK DAS RICHTIGE DABEI.
             </h2>
-            <h2 class={styles.title}>
+            <h2
+                class={`${styles.title} ${styles.font}`}
+                style={{ fontSize: 60 }}
+            >
                 MACHEN SIE MIT UNS <br />
                 EINE KULINARISCHE WELTREISE.
             </h2>

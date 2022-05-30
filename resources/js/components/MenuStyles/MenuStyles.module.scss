@@ -1,29 +1,36 @@
 .root {
+    width: 80%;
 }
 
 .foodStylesList {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
-.foodStyles {
+.container {
+    position: relative;
+    height: 200px;
+    width: 150px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 1em;
-    margin-right: 1em;
 }
 
-.foodStyleImage {
-    height: 120px;
-    width: 120px;
-    margin-top: 3em;
-    margin-bottom: 1em;
+.bgImg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
 }
 
-.label {
-    text-align: center;
-    color: gray;
-    font-weight: 800;
+.detailsImg {
+    position: absolute;
+    width: 150%;
+    bottom: 0;
+    z-index: 1;
+
+    background-position: 50% 50%;
 }

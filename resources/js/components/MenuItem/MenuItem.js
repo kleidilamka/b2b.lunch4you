@@ -1,8 +1,15 @@
 import React from "react";
 import styles from "./MenuItem.module.scss";
 import Food from "../../assets/foodBackground.jpeg";
+import { useNavigate } from "react-router-dom";
 
 const MenuItem = () => {
+    const navigate = useNavigate();
+
+    const goToProductDetails = () => {
+        navigate("/product");
+    };
+
     return (
         <div class={styles.root}>
             {Array.apply(null, { length: 7 }).map((e, i) => (
@@ -12,12 +19,12 @@ const MenuItem = () => {
                         {/* Middle Container */}
                         <div class={styles.middleContainer}>
                             <h2
-                                class={styles.text}
-                                style={{ fontSize: 28, fontWeight: "bold" }}
+                                class={`${styles.text} ${styles.font}`}
+                                style={{ fontSize: 36, fontWeight: "bold" }}
                             >
                                 THAI-CURRY
                             </h2>
-                            <h4 class={styles.text}>
+                            <h4 class={`${styles.text} ${styles.font}`}>
                                 Zarte Hähnchenbrust mit buntem Gemüse und
                                 köstlicher Kokosmilch auf leckerem Reis.
                             </h4>
@@ -25,7 +32,12 @@ const MenuItem = () => {
                                 {Array.apply(null, { length: 3 }).map(
                                     (e, i) => (
                                         <div class={styles.foodCtg}>
-                                            <h4>Low Carb</h4>
+                                            <h4
+                                                class={styles.font}
+                                                style={{ fontSize: 18 }}
+                                            >
+                                                Low Carb
+                                            </h4>
                                         </div>
                                     )
                                 )}
@@ -39,9 +51,20 @@ const MenuItem = () => {
                                                     styles.nutritionContainer
                                                 }
                                             >
-                                                <h4>103</h4>
+                                                <h4
+                                                    class={styles.font}
+                                                    style={{ fontSize: 24 }}
+                                                >
+                                                    103
+                                                </h4>
                                             </div>
-                                            <h4 style={{ marginTop: 5 }}>
+                                            <h4
+                                                class={styles.font}
+                                                style={{
+                                                    marginTop: 5,
+                                                    fontSize: 24,
+                                                }}
+                                            >
                                                 Cal
                                             </h4>
                                         </div>
@@ -50,7 +73,13 @@ const MenuItem = () => {
                             </div>
                         </div>
                         {/* Button */}
-                        <button class={styles.button}>DETAILS</button>
+                        <button
+                            onClick={goToProductDetails}
+                            class={`${styles.button} ${styles.font}`}
+                            style={{ fontSize: 28, fontWeight: "bold" }}
+                        >
+                            DETAILS
+                        </button>
                     </div>
                 </div>
             ))}
