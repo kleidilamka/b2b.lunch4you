@@ -14,7 +14,10 @@
 
 .title {
     font-size: 48px;
-    margin-top: 0.5em;
+}
+
+.bigTitle {
+    font-size: 72px;
     color: white;
 }
 
@@ -26,7 +29,6 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 50px;
 }
 
 .middleContainer {
@@ -39,12 +41,15 @@
 
 .uppercase {
     color: #fff;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 24px;
 }
 
 .lowercase {
     color: #fff;
-    margin-bottom: 0.2em;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 24px;
 }
 
 .image {
@@ -59,7 +64,6 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 50px;
     color: white;
 }
 
@@ -67,13 +71,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 2em 0;
+    margin: 1em 0;
 }
 
 .input {
     border: 1px solid #3c3c3c;
     height: 50px;
-    width: 30%;
+    width: 45%;
     border-radius: 12px;
     padding-left: 12px;
 }
@@ -81,9 +85,13 @@
 .button {
     border: 1px solid #fff;
     height: 50px;
-    width: 30%;
+    width: 40%;
     background-color: transparent;
     color: white;
     font-size: 18px;
     font-weight: bolder;
+}
+
+.font {
+    font-family: "Alumni Sans", sans-serif;
 }
