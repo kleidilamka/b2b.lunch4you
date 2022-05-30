@@ -7,18 +7,22 @@
 }
 
 .bigTitle {
-    font-size: 36px;
+    font-size: 48px;
     margin: 0.8em;
 }
 
 .title {
-    margin-block: 1em;
-    font-weight: 800;
+    font-size: 36px;
 }
 
 .text {
-    font-weight: 400;
+    font-weight: 500;
     color: #3c3c3c;
+}
+
+.orangeText {
+    font-weight: 400;
+    color: #f89b1b;
 }
 
 .container {
@@ -46,7 +50,7 @@
     height: 60px;
     width: 150px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
     background-color: #ea4c46;
     opacity: 0.9;
 }
@@ -55,9 +59,9 @@
     border-style: none;
     color: #fff;
     height: 60px;
-    width: 300px;
+    width: 450px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
     background-color: #f89b1b;
 }
 
@@ -80,4 +84,8 @@
 
 .input {
     margin-top: 5px;
+}
+
+.font {
+    font-family: "Alumni Sans", sans-serif;
 }
