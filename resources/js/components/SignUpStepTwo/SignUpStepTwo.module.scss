@@ -11,9 +11,18 @@
     padding-bottom: 4em;
 }
 
+.registerContainer {
+    margin-top: 2em;
+}
+
+.bigTitle {
+    font-size: 48px;
+    margin-left: 0.7em;
+    margin-top: 0.2em;
+}
+
 .title {
     font-size: 36px;
-    margin: 0.8em;
 }
 
 .container {
@@ -23,28 +32,17 @@
     margin-bottom: 2em;
     position: relative;
 }
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-top: 2em;
-}
-
-.column {
-    width: 50%;
-}
 
 .input {
     height: 40px;
-    width: 85%;
+    width: 97%;
     border: 1px solid #c3c3c3;
     border-radius: 7px;
     padding-left: 12px;
-    margin-top: 2em;
 }
 
 .textAreaContainer {
-    width: 92%;
+    width: 98%;
 }
 
 .textArea {
@@ -54,14 +52,14 @@
     padding-left: 12px;
     border: 1px solid #c3c3c3;
     border-radius: 12px;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .buttonContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 92%;
+    width: 100%;
     margin-top: 2em;
 }
 
@@ -71,7 +69,7 @@
     height: 60px;
     width: 150px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 28px;
     background-color: #ea4c46;
     opacity: 0.9;
 }
@@ -82,7 +80,7 @@
     height: 60px;
     width: 300px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 28px;
     background-color: #f89b1b;
 }
 
@@ -93,4 +91,32 @@
     width: 92%;
     font-size: 18px;
     color: #f89b1b;
+}
+
+.font {
+    font-family: "Alumni Sans", sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inputRow {
+    width: 45%;
+    margin-top: 0.5em;
+}
+
+.doubleInput {
+    margin-top: 0.5em;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.labelRow {
+    width: 45%;
+    margin-top: 1em;
 }

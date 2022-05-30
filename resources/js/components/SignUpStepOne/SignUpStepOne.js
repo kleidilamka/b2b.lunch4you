@@ -8,13 +8,15 @@ const SignUpStepOne = ({ setStep }) => {
 
     return (
         <div class={styles.root}>
-            <h2 class={styles.mainTitle}>
+            <h2 class={`${styles.mainTitle} ${styles.font}`}>
                 STEP 1 VON 3: WARENKORB BESTELLÜBERSICHT
             </h2>
             <div class={styles.container}>
                 <hr />
-                <h2 class={styles.title}>MELDE JETZT DEIN UNTERNEHMEN AN.</h2>
-                <h2 class={styles.description}>
+                <h2 class={`${styles.title} ${styles.font}`}>
+                    MELDE JETZT DEIN UNTERNEHMEN AN.
+                </h2>
+                <h2 class={`${styles.description} ${styles.font}`}>
                     Die Registrierung geht schnell. Bitte gebe dafür einfach nur
                     die erforderlichen Daten ein. Nach der Registrierung erhälst
                     Du die Zugangsdaten und kannst Deine Bestellungen und den
@@ -25,7 +27,7 @@ const SignUpStepOne = ({ setStep }) => {
                 </h2>
                 <div class={styles.inputContainer}>
                     <input class={styles.input} type="checkbox" />
-                    <label class={styles.label}>Ja</label>
+                    <label class={`${styles.label} ${styles.font}`}>Ja</label>
                 </div>
                 <div class={styles.inputContainer}>
                     <input
@@ -33,7 +35,10 @@ const SignUpStepOne = ({ setStep }) => {
                         class={styles.input}
                         type="checkbox"
                     />
-                    <label class={styles.label} style={{ marginBottom: 18 }}>
+                    <label
+                        class={`${styles.label} ${styles.font}`}
+                        style={{ marginBottom: 18 }}
+                    >
                         Nein
                     </label>
                     {neinChecked && (
@@ -55,7 +60,7 @@ const SignUpStepOne = ({ setStep }) => {
                 <div class={styles.buttonContainer}>
                     <button
                         onClick={() => setStep(2)}
-                        class={styles.button}
+                        class={`${styles.button} ${styles.font}`}
                         style={{ backgroundColor: "#f89b1b" }}
                     >
                         WEITER ZU SCHRITT 2 VON 3

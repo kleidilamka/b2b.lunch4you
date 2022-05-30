@@ -7,7 +7,7 @@
 }
 
 .mainTitle {
-    font-size: 36px;
+    font-size: 48px;
     margin: 0.8em;
 }
 
@@ -25,6 +25,7 @@
 
 .title {
     margin-block: 1em;
+    font-size: 36px;
 }
 
 .description {
@@ -77,5 +78,9 @@
     height: 70px;
     width: 300px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 28px;
+}
+
+.font {
+    font-family: "Alumni Sans", sans-serif;
 }

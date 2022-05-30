@@ -3,29 +3,32 @@ import SignUpStepOne from "../../components/SignUpStepOne";
 import SignUpStepThree from "../../components/SignUpStepThree";
 import SignUpStepTwo from "../../components/SignUpStepTwo";
 import styles from "./SignUp.module.scss";
-import ForkIcon from "../../assets/forkIcon.svg";
 
 const SignUp = () => {
-    const [step, setStep] = useState(1);
+    const [step, setStep] = useState(2);
 
     return (
         <div class={styles.root}>
             {step === 4 ? (
                 <div style={{ textAlign: "center" }}>
-                    <h2 class={styles.title}>SCHON GESCHAFFT.</h2>
-                    <h2 class={styles.bigTitle}>
+                    <h2 class={`${styles.title} ${styles.font}`}>
+                        SCHON GESCHAFFT.
+                    </h2>
+                    <h2 class={`${styles.bigTitle} ${styles.font}`}>
                         VIELEN DANK FÜR IHRE REGISTRIERUNG.
                     </h2>
                 </div>
             ) : (
                 <div style={{ textAlign: "center" }}>
-                    <h2 class={styles.title}>LUST AUF LUNCH4YOU?</h2>
-                    <h2 class={styles.bigTitle}>
+                    <h2 class={`${styles.title} ${styles.font}`}>
+                        LUST AUF LUNCH4YOU?
+                    </h2>
+                    <h2 class={`${styles.bigTitle} ${styles.font}`}>
                         DANN EINFACH REGISTRIEREN UND LOS GEHT'S.
                     </h2>
                 </div>
             )}
-            {step > 4 && (
+            {step < 4 && (
                 <div class={styles.stepsContainer}>
                     <div class={styles.step}>
                         <h5>Step 1</h5>

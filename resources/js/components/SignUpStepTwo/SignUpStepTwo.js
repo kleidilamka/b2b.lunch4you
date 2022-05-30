@@ -6,50 +6,69 @@ const SignUpStepTwo = ({ setStep }) => {
         <div class={styles.root}>
             {/* SignUp Container */}
             <div class={styles.signUpContainer}>
-                <h2 class={styles.title}>
+                <h2 class={`${styles.bigTitle} ${styles.font}`}>
                     STEP 2 VON 3: REGISTRIERUNG ODER ANMELDUNG
                 </h2>
                 <h2></h2>
                 <div class={styles.container}>
                     <hr />
-                    <h2
-                        style={{
-                            fontSize: 36,
-                            color: "#f89b1b",
-                            marginTop: 32,
-                        }}
-                    >
-                        NEUKUNDE?
-                    </h2>
+
                     <div class={styles.registerContainer}>
                         {/* First Row */}
                         <div class={styles.row}>
-                            <div class={styles.column}>
-                                <h2>FIRMENNAME*</h2>
+                            <div class={styles.labelRow}>
+                                <h2 class={`${styles.title} ${styles.font}`}>
+                                    FIRMENNAME*{" "}
+                                </h2>
+                            </div>
+                            <div class={styles.labelRow}>
+                                <h2 class={`${styles.title} ${styles.font}`}>
+                                    ANSPRECHPARTNER*{" "}
+                                </h2>
+                            </div>
+                        </div>
+                        <div class={styles.row}>
+                            <div class={styles.inputRow}>
                                 <input
                                     class={styles.input}
                                     placeholder="Firmennamen eingeben"
                                 />
                             </div>
-                            <div class={styles.column}>
-                                <h2>ANSPRECHPARTNER*</h2>
+
+                            <div class={styles.doubleInput}>
                                 <input
                                     class={styles.input}
-                                    placeholder="E-Mail eingeben"
+                                    placeholder="Vornamen eingeben"
+                                />
+                                <input
+                                    class={styles.input}
+                                    style={{ marginLeft: 10 }}
+                                    placeholder="Nachnamen eingeben"
                                 />
                             </div>
                         </div>
                         {/* Second Row */}
                         <div class={styles.row}>
-                            <div class={styles.column}>
-                                <h2>E-MAIL*</h2>
+                            <div class={styles.labelRow}>
+                                <h2 class={`${styles.title} ${styles.font}`}>
+                                    E-MAIL*
+                                </h2>
+                            </div>
+                            <div class={styles.labelRow}>
+                                <h2 class={`${styles.title} ${styles.font}`}>
+                                    TELEFONNUMMER*
+                                </h2>
+                            </div>
+                        </div>
+                        <div class={styles.row}>
+                            <div class={styles.inputRow}>
                                 <input
                                     class={styles.input}
                                     placeholder="E-Mail eingeben"
                                 />
                             </div>
-                            <div class={styles.column}>
-                                <h2>TELEFONNUMMER*</h2>
+
+                            <div class={styles.inputRow}>
                                 <input
                                     class={styles.input}
                                     placeholder="Telefonnummer eingeben"
@@ -58,15 +77,26 @@ const SignUpStepTwo = ({ setStep }) => {
                         </div>
                         {/* Third Row */}
                         <div class={styles.row}>
-                            <div class={styles.column}>
-                                <h2>STRASSE*</h2>
+                            <div class={styles.labelRow}>
+                                <h2 class={`${styles.title} ${styles.font}`}>
+                                    STRASSE*
+                                </h2>
+                            </div>
+                            <div class={styles.labelRow}>
+                                <h2 class={`${styles.title} ${styles.font}`}>
+                                    HAUSNUMMER*
+                                </h2>
+                            </div>
+                        </div>
+                        <div class={styles.row}>
+                            <div class={styles.inputRow}>
                                 <input
                                     class={styles.input}
                                     placeholder="Strasse eingeben"
                                 />
                             </div>
-                            <div class={styles.column}>
-                                <h2>HAUSNUMMER*</h2>
+
+                            <div class={styles.inputRow}>
                                 <input
                                     class={styles.input}
                                     placeholder="Hausnummer eingeben"
@@ -75,15 +105,27 @@ const SignUpStepTwo = ({ setStep }) => {
                         </div>
                         {/* Fourth Row */}
                         <div class={styles.row}>
-                            <div class={styles.column}>
-                                <h2>POSTLEITZAHL*</h2>
+                            <div class={styles.labelRow}>
+                                <h2 class={`${styles.title} ${styles.font}`}>
+                                    POSTLEITZAHL*
+                                </h2>
+                            </div>
+                            <div class={styles.labelRow}>
+                                <h2 class={`${styles.title} ${styles.font}`}>
+                                    STADT*{" "}
+                                </h2>
+                            </div>
+                        </div>
+                        <div class={styles.row}>
+                            <div class={styles.inputRow}>
                                 <input
                                     class={styles.input}
                                     placeholder="PLZ eingeben"
                                 />
                             </div>
-                            <div class={styles.column}>
-                                <h2>STADT*</h2>
+
+                            <div class={styles.inputRow}>
+                                {" "}
                                 <input
                                     class={styles.input}
                                     placeholder="Stadt eingeben"
@@ -93,7 +135,14 @@ const SignUpStepTwo = ({ setStep }) => {
                         {/* Fifth Row */}
                         <div class={styles.row}>
                             <div class={styles.textAreaContainer}>
-                                <h2>PERSÖNLICHE NACHRICHT ODER FRAGEN?</h2>
+                                <div style={{ marginTop: 50 }}>
+                                    <h2
+                                        class={`${styles.title} ${styles.font}`}
+                                    >
+                                        PERSÖNLICHE NACHRICHT ODER FRAGEN?
+                                    </h2>
+                                </div>
+
                                 <textarea
                                     class={styles.textArea}
                                     id="w3review"
@@ -104,17 +153,18 @@ const SignUpStepTwo = ({ setStep }) => {
                                 ></textarea>
                             </div>
                         </div>
+
                         {/* Button  Row */}
                         <div class={styles.buttonContainer}>
                             <button
                                 onClick={() => setStep(1)}
-                                class={styles.backButton}
+                                class={`${styles.backButton} ${styles.font}`}
                             >
                                 ZURÜCK
                             </button>
                             <button
                                 onClick={() => setStep(3)}
-                                class={styles.forwardButton}
+                                class={`${styles.forwardButton} ${styles.font}`}
                             >
                                 WEITER ZU SCHRITT 3 VON 3
                             </button>
