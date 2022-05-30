@@ -38,9 +38,13 @@ const Quality = () => {
         <div class={styles.root}>
             <div class={styles.container}>
                 <img src={HeartIcon} style={{ height: 100, width: 100 }} />
-                <h2 class={styles.text}>WOFÜR WIR STEHEN</h2>
-                <h2 class={styles.title}>UNSER QUALITÄTSVERSPRECHEN</h2>
-                <h4 class={styles.description}>
+                <h2 class={`${styles.text} ${styles.font}`}>
+                    WOFÜR WIR STEHEN
+                </h2>
+                <h2 class={`${styles.title} ${styles.font}`}>
+                    UNSER QUALITÄTSVERSPRECHEN
+                </h2>
+                <h4 class={`${styles.description} ${styles.font}`}>
                     Gesund & lecker, frisch & nachhaltig hergestellt mit
                     Zutaten, <br />
                     die überwiegend in der Region produziert werden: das ist
@@ -51,7 +55,7 @@ const Quality = () => {
                         return (
                             <div class={styles.iconContainer}>
                                 <img src={item.icon} class={styles.icon} />
-                                <h2 class={styles.text}>
+                                <h2 class={`${styles.iconText} ${styles.font}`}>
                                     {item.firstRow} <br />
                                     {item.secondRow}
                                 </h2>
