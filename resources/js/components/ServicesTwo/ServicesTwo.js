@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./ServicesTwo.module.scss";
-import HandIcon from "../../assets/handIcon.svg";
-import ClockIcon from "../../assets/clockIcon.svg";
-import CartIcon from "../../assets/cartIcon.svg";
-import ForkIcon from "../../assets/forkIcon.svg";
+import HandIcon from "../../assets/Icon_Bestellvorgang_01.svg";
+import ClockIcon from "../../assets/Icon_Bestellvorgang_02.svg";
+import CartIcon from "../../assets/Icon_Bestellvorgang_03.svg";
+import ForkIcon from "../../assets/Icon_Bestellvorgang_04.svg";
 
 const data = [
     {
@@ -36,12 +36,14 @@ const ServicesTwo = () => {
     return (
         <div class={styles.root}>
             <div class={styles.container}>
-                <h2 class={styles.text}>SO EINFACH, SO GUT.</h2>
-                <h2 class={styles.title}>
+                <h2 class={`${styles.text} ${styles.font}`}>
+                    SO EINFACH, SO GUT.
+                </h2>
+                <h2 class={`${styles.title} ${styles.font}`}>
                     DEINE BESTELLUNG MIT LÜCKENLOS <br />
                     GEKÜHLTER LIEFERKETTE !
                 </h2>
-                <h4 class={styles.description}>
+                <h4 class={`${styles.description}`}>
                     Von der ersten Sekunde an, behandeln wir unsere ausgewählten
                     Zutaten mit viel Liebe und Sorgfalt. Nach der Zubereitung
                     durch unsere Chefköche, werden unsere Menüs direkt unter
@@ -57,7 +59,7 @@ const ServicesTwo = () => {
                         return (
                             <div class={styles.iconContainer}>
                                 <img src={item.icon} class={styles.icon} />
-                                <h2 class={styles.text}>
+                                <h2 class={styles.iconText}>
                                     {item.firstRow} <br />
                                     {item.secondRow}
                                 </h2>

@@ -5,6 +5,7 @@
     align-items: center;
     text-align: center;
     padding: 4em 0 4em 0;
+    background-color: #f8f4ed;
 }
 
 .title {
@@ -15,4 +16,8 @@
 .text {
     font-size: 18px;
     margin: 2em 0 2em 0;
+}
+
+.font {
+    font-family: "IBM Plex Sans", sans-serif;
 }

@@ -5,10 +5,10 @@ import styles from "./Products.module.scss";
 const Products = () => {
     return (
         <div class={styles.root}>
-            <h1 style={{ color: "#F89B1B" }}>
+            <h1 style={{ color: "#F89B1B" }} class={styles.font}>
                 FÜR JEDEN GESCHMACK DAS RICHTIGE DABEI.
             </h1>
-            <h1 class={styles.title}>
+            <h1 class={`${styles.title} ${styles.font}`}>
                 MACHET MIT UNS <br />
                 EINE KULINARISCHE WELTREISE.
             </h1>

@@ -36,8 +36,10 @@ const Services = () => {
     return (
         <div class={styles.root}>
             <div class={styles.container}>
-                <h2 class={styles.text}>SO EINFACH, SO GUT.</h2>
-                <h2 class={styles.title}>
+                <h2 class={`${styles.title} ${styles.font}`}>
+                    SO EINFACH, SO GUT.
+                </h2>
+                <h2 class={`${styles.bigTitle} ${styles.font}`}>
                     BESTELLT, GEKOCHT, GELIEFERT: <br />
                     MIT WENIGEN KLICKS GENIESSEN.
                 </h2>
@@ -46,8 +48,8 @@ const Services = () => {
                         return (
                             <div class={styles.iconContainer}>
                                 <img src={item.icon} class={styles.icon} />
-                                <h2 class={styles.text}>
-                                    {item.id} <br />
+                                <h2 class={`${styles.text} ${styles.font}`}>
+                                    {item.id}. <br />
                                     {item.firstRow} <br />
                                     {item.secondRow}
                                 </h2>
