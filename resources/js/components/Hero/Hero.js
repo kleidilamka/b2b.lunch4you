@@ -13,7 +13,7 @@ const Hero = () => {
                     backgroundImage: `url("${MainImage}")`,
                 }}
             >
-                <h2 class={styles.title}>
+                <h2 class={`${styles.title} ${styles.font}`}>
                     LUNCH 4 YOU BUSINESS. <br />
                     DIE ERSTE ONLINEKANTINE.
                 </h2>
@@ -21,14 +21,17 @@ const Hero = () => {
             {/* Jetzt Registrieren */}
             <div class={styles.registrierenContainer}>
                 <div class={styles.container}>
-                    <h2 class={styles.mainText} style={{ color: "#f89b1b" }}>
+                    <h2
+                        class={`${styles.mainText} ${styles.font}`}
+                        style={{ color: "#f89b1b" }}
+                    >
                         GEMEINSAM ESSEN. JEDERZEIT UND ÜBERALL.
                     </h2>
-                    <h2 class={styles.registrierenTitle}>
+                    <h2 class={`${styles.registrierenTitle} ${styles.font}`}>
                         UNSERE MISSION: <br />
                         LECKERES ESSEN. JEDEN TAG.
                     </h2>
-                    <h4 class={styles.text}>
+                    <h4 class={`${styles.text} ${styles.font}`}>
                         Sie brauchen eine transparente und flexible Lösung für
                         die Versorgung Ihrer Mitarbeiter? Kein Problem! Mit
                         unserer Lunch4You Plattform für Business-Kunden bieten
@@ -38,7 +41,9 @@ const Hero = () => {
                         Oder ob Sie eine individuelle Bezuschussung wünschen -
                         wir haben die Lösung für Sie.
                     </h4>
-                    <button class={styles.button}>JETZT REGISTRIEREN</button>
+                    <button class={`${styles.button} ${styles.font}`}>
+                        JETZT REGISTRIEREN
+                    </button>
                 </div>
             </div>
             {/* Services Image Background */}
