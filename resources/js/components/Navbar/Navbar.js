@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
         <div class={styles.root}>
-            <Link to="/" class={styles.removeUnderline}>
+            <Link to="/dashboard" class={styles.removeUnderline}>
                 <img src={Logo} class={styles.logo} />
             </Link>
             {/* First Nav Row */}
