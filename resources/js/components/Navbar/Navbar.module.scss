@@ -16,6 +16,7 @@
 
 .firstRow {
     height: 60px;
+    position: relative;
     background-color: #232b36;
     display: flex;
     flex-direction: row;
@@ -24,8 +25,13 @@
 }
 
 .heartIcon {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
+}
+
+.expressIcon {
+    height: 35px;
+    width: 35px;
 }
 
 .titleContainer {
@@ -47,16 +53,18 @@
 
 .navIconOne {
     position: absolute;
-    height: 20px;
-    width: 20px;
+    height: 23px;
+    width: 23px;
     right: 60px;
+    top: 20px;
 }
 
 .navIcon {
     position: absolute;
-    height: 20px;
-    width: 20px;
-    right: 35px;
+    height: 25px;
+    width: 25px;
+    right: 30px;
+    top: 20px;
 }
 
 .navContainer {
@@ -69,7 +77,132 @@
     font-size: 12px;
 }
 
+.font {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+}
+
 .removeUnderline {
     text-decoration: none;
     color: inherit;
+}
+
+.hamburgerMenu {
+    display: none;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .logo {
+        height: 70px;
+        width: 70px;
+        left: 10px;
+    }
+
+    .titles {
+        font-size: 12px;
+    }
+
+    .heartIcon {
+        height: 20px;
+        width: 20px;
+    }
+
+    .expressIcon {
+        height: 25px;
+        width: 25px;
+    }
+
+    .firstRow {
+        height: 40px;
+    }
+
+    .secondRow {
+        height: 40px;
+    }
+
+    .navTitle {
+        font-size: 14px;
+    }
+
+    .navIcon {
+        top: 10px;
+        right: 20px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .navIconOne {
+        top: 10px;
+        right: 45px;
+        height: 18px;
+        width: 18px;
+    }
+
+    .hamburgerMenu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .titles {
+        display: none;
+    }
+
+    .navIcon {
+        display: none;
+    }
+
+    .navIconOne {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .first {
+        display: none;
+    }
+
+    .secondRow {
+        display: none;
+    }
+
+    .heartIcon {
+        display: none;
+    }
+
+    .expressIcon {
+        display: none;
+    }
+
+    .hamburgerMenu {
+        z-index: 1;
+        display: flex;
+        color: #fff;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+    .menu {
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        background-color: #232b36;
+    }
+
+    .menuContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+        margin-left: 2em;
+        margin-bottom: 1em;
+    }
+
+    .navTitle {
+        margin-top: 0.4em;
+        color: #fff;
+    }
 }
