@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./MenuStyles.module.scss";
 import FoodStyle from "../../assets/foodBackground.jpeg";
-import Asia from "../../assets/Schwinge_Asia.svg";
+import Asia from "../../assets/MenuAsia.png";
+import Style from "../../assets/Schwinge_Fit.svg";
 
 const MenuStyles = () => {
     return (
@@ -14,7 +15,7 @@ const MenuStyles = () => {
                             class={styles.bgImg}
                             style={{ backgroundImage: `url("${FoodStyle}")` }}
                         >
-                            <img src={Asia} class={styles.detailsImg} />
+                            <img src={Style} class={styles.detailsImg} />
                         </div>
                     </div>
                 ))}

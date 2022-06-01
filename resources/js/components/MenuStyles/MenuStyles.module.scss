@@ -28,9 +28,9 @@
 
 .detailsImg {
     position: absolute;
-    width: 150%;
+    width: 200%;
+    height: 100px;
     bottom: 0;
     z-index: 1;
-
-    background-position: 50% 50%;
+    border: 1px solid green;
 }

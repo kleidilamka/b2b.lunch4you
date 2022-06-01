@@ -7,7 +7,6 @@ const Ubersicht = () => {
     return (
         <div class={styles.main}>
             <Sidebar />
-
             <div class={styles.wrapper}>
                 <div class={styles.container}>
                     <h2
