@@ -22,7 +22,7 @@
 }
 
 .step {
-    border: 2px solid #f89b1b;
+    border: 2px solid black;
     width: 10%;
     display: flex;
     flex-direction: row;
@@ -56,4 +56,24 @@
 
 .font {
     font-family: "IBM Plex Sans", sans-serif;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 769px) {
+    .bigTitle {
+        font-size: 36px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .stepsContainer {
+        display: none;
+    }
+
+    .step {
+        display: none;
+    }
 }

@@ -5,7 +5,7 @@ import SignUpStepTwo from "../../components/SignUpStepTwo";
 import styles from "./SignUp.module.scss";
 
 const SignUp = () => {
-    const [step, setStep] = useState(2);
+    const [step, setStep] = useState(1);
 
     return (
         <div class={styles.root}>
@@ -30,16 +30,42 @@ const SignUp = () => {
             )}
             {step < 4 && (
                 <div class={styles.stepsContainer}>
-                    <div class={styles.step}>
+                    <div
+                        class={styles.step}
+                        style={{
+                            backgroundColor: step === 1 && "#f89b1b",
+                            borderColor: step >= 1 && "#f89b1b",
+                            color: step === 1 ? "#fff" : "#f89b1b",
+                        }}
+                    >
                         <h5>Step 1</h5>
                     </div>
                     <div class={styles.dashedLine} />
-                    <div class={styles.step}>
+                    <div
+                        class={styles.step}
+                        style={{
+                            backgroundColor: step === 2 && "#f89b1b",
+                            borderColor: step >= 2 && "#f89b1b",
+                            color:
+                                step < 2
+                                    ? "#000"
+                                    : step === 2
+                                    ? "#fff"
+                                    : "#f89b1b",
+                        }}
+                    >
                         <h5>Step 2</h5>
                     </div>
                     <div class={styles.dashedLine} />
 
-                    <div class={styles.step}>
+                    <div
+                        class={styles.step}
+                        style={{
+                            backgroundColor: step === 3 && "#f89b1b",
+                            borderColor: step === 3 && "#f89b1b",
+                            color: step === 3 && "#fff",
+                        }}
+                    >
                         <h5>Step 3</h5>
                     </div>
                 </div>

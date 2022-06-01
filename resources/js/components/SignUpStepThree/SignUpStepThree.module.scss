@@ -8,11 +8,17 @@
 
 .bigTitle {
     font-size: 48px;
-    margin: 0.8em;
+    margin-left: 0.5em;
+    margin-top: 0.3em;
+}
+
+.mainTitle {
+    font-size: 36px;
+    margin-top: 0.5em;
 }
 
 .title {
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .text {
@@ -21,7 +27,6 @@
 }
 
 .orangeText {
-    font-weight: 400;
     color: #f89b1b;
 }
 
@@ -88,4 +93,80 @@
 
 .font {
     font-family: "Alumni Sans", sans-serif;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .bigTitle {
+        font-size: 36px;
+    }
+
+    .rucksendText {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 502px) and (max-width: 768px) {
+    .bigTitle {
+        font-size: 36px;
+    }
+
+    .rucksendText {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 501px) {
+    .bigTitle {
+        font-size: 24px;
+    }
+
+    .mainTitle {
+        font-size: 24px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .inputContainer {
+        width: 100%;
+    }
+
+    .rucksendText {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .orangeText {
+        font-size: 18px;
+    }
+
+    .backButton {
+        border-style: none;
+        color: #fff;
+        height: 60px;
+        font-weight: bold;
+        font-size: 14px;
+        background-color: #ea4c46;
+        opacity: 0.9;
+        width: 45%;
+    }
+
+    .forwardButton {
+        border-style: none;
+        color: #fff;
+        height: 60px;
+        font-weight: bold;
+        font-size: 14px;
+        background-color: #f89b1b;
+        width: 45%;
+        margin-left: 10px;
+    }
 }

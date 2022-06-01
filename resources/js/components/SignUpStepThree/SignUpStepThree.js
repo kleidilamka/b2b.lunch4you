@@ -6,11 +6,11 @@ const CheckoutStepThree = ({ setStep }) => {
     return (
         <div class={styles.root}>
             <h2 class={`${styles.bigTitle} ${styles.font}`}>
-                STEP 1 VON 3: WARENKORB BESTELLÜBERSICHT
+                STEP 3 VON 3: REGISTRIERUNG ABSCHLIESSEN{" "}
             </h2>
             <div class={styles.container}>
                 <hr />
-                <h2 class={`${styles.title} ${styles.font}`}>
+                <h2 class={`${styles.mainTitle} ${styles.font}`}>
                     BITTE ÜBERPRÜFE DEINE ANGABEN.
                 </h2>
                 {/* First Row */}
@@ -74,7 +74,6 @@ const CheckoutStepThree = ({ setStep }) => {
                                 style={{
                                     color: "#f89b1b",
                                     fontWeight: "bold",
-                                    marginInline: 5,
                                 }}
                             >
                                 Datenschutzerklärung
