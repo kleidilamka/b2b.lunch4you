@@ -19,9 +19,7 @@ const Product = () => {
                     onClick={goToProductDetails}
                 >
                     <img src={Food} class={styles.image} />
-                    <h4 class={`${styles.text} ${styles.font}`}>
-                        LINGUINE ALFREDO
-                    </h4>
+                    <h4 class={styles.text}>Linguine Alfredo</h4>
                 </div>
             ))}
         </div>
