@@ -104,4 +104,41 @@
     .bigTitle {
         font-size: 36px;
     }
+
+    .middleContainer {
+        background-color: #000000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 2em 0;
+    }
+
+    .middleLeftContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+    }
+
+    .middleMiddleContainer {
+        width: 100%;
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid green;
+    }
+    .middleRightContainer {
+        width: 100%;
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid blue;
+    }
 }

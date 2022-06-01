@@ -55,7 +55,7 @@ const Footer = () => {
                     <h4 class={styles.lowercase}>T: 0800 7767677</h4>
                     <h4 class={styles.lowercase}>M: info@lunch4you.de</h4>
                 </div>
-                <div class={styles.middleRightContaier}>
+                <div class={styles.middleRightContainer}>
                     <h4 class={styles.uppercase}>SICHERE ZAHLUNGSARTEN</h4>
                     <img src={PaymentCards} class={styles.image} />
                 </div>

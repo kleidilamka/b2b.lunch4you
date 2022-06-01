@@ -95,6 +95,7 @@ function Main() {
                     element={<BenachrichtigungenVerwalten />}
                 />
             </Routes>
+            <Test />
         </div>
     );
 }
