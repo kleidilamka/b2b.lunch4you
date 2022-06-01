@@ -75,7 +75,12 @@
     }
 
     .input {
+        background-color: transparent;
+        border-radius: 10px;
+        border: 1px solid #c3c3c3;
+        margin-top: 1em;
         padding-block: 1em;
+        padding-left: 10px;
     }
 
     .forgetPassword {

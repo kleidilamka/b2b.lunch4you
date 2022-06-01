@@ -5,7 +5,7 @@ import SignUpStepTwo from "../../components/SignUpStepTwo";
 import styles from "./SignUp.module.scss";
 
 const SignUp = () => {
-    const [step, setStep] = useState(1);
+    const [step, setStep] = useState(2);
 
     return (
         <div class={styles.root}>

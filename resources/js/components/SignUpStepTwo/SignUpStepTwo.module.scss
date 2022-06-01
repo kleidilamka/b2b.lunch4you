@@ -11,18 +11,16 @@
     padding-bottom: 4em;
 }
 
-.registerContainer {
-    margin-top: 2em;
-}
-
 .bigTitle {
-    font-size: 48px;
-    margin-left: 0.7em;
-    margin-top: 0.2em;
+    font-size: 60px;
+    margin-left: 0.5em;
+    margin-top: 0.3em;
 }
 
 .title {
     font-size: 36px;
+    margin-left: 0.5em;
+    margin-top: 0.3em;
 }
 
 .container {
@@ -32,17 +30,28 @@
     margin-bottom: 2em;
     position: relative;
 }
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 2em;
+}
+
+.column {
+    width: 50%;
+}
 
 .input {
     height: 40px;
-    width: 97%;
+    width: 90%;
     border: 1px solid #c3c3c3;
     border-radius: 7px;
     padding-left: 12px;
+    margin-top: 1em;
 }
 
 .textAreaContainer {
-    width: 98%;
+    width: 95%;
 }
 
 .textArea {
@@ -52,14 +61,14 @@
     padding-left: 12px;
     border: 1px solid #c3c3c3;
     border-radius: 12px;
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 .buttonContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: 96%;
     margin-top: 2em;
 }
 
@@ -72,6 +81,7 @@
     font-size: 28px;
     background-color: #ea4c46;
     opacity: 0.9;
+    font-family: "Alumni Sans", sans-serif;
 }
 
 .forwardButton {
@@ -82,13 +92,17 @@
     font-weight: bold;
     font-size: 28px;
     background-color: #f89b1b;
+    font-family: "Alumni Sans", sans-serif;
+}
+
+.loginContainer {
 }
 
 .forgetPassword {
-    margin-top: 2em;
+    margin-top: 1em;
     position: absolute;
     text-align: right;
-    width: 92%;
+    width: 96%;
     font-size: 18px;
     color: #f89b1b;
 }
@@ -97,26 +111,70 @@
     font-family: "Alumni Sans", sans-serif;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.inputTitle {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 36px;
 }
 
-.inputRow {
-    width: 45%;
-    margin-top: 0.5em;
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .bigTitle {
+        font-size: 36px;
+    }
 }
 
-.doubleInput {
-    margin-top: 0.5em;
-    width: 45%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .bigTitle {
+        font-size: 36px;
+    }
 }
 
-.labelRow {
-    width: 45%;
-    margin-top: 1em;
+@media only screen and (max-width: 501px) {
+    .bigTitle {
+        font-size: 28px;
+    }
+
+    .row {
+        flex-direction: column;
+        margin-top: 1em;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .inputTitle {
+        font-size: 24px;
+        margin-top: 1em;
+    }
+
+    .backButton {
+        border-style: none;
+        color: #fff;
+        height: 60px;
+        width: 100px;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: #ea4c46;
+        opacity: 0.9;
+        font-family: "Alumni Sans", sans-serif;
+    }
+
+    .forwardButton {
+        border-style: none;
+        color: #fff;
+        height: 60px;
+        width: 150px;
+        font-weight: bold;
+        font-size: 17px;
+        background-color: #f89b1b;
+        font-family: "Alumni Sans", sans-serif;
+    }
+
+    .textAreaContainer {
+        width: 100%;
+    }
+
+    .textArea {
+        width: 91%;
+    }
 }
