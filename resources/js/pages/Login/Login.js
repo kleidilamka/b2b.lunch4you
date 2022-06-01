@@ -22,7 +22,9 @@ const Login = () => {
                             speichern
                         </h4>
                     </div>
-                    <h4 style={{ color: "#fff" }}>Passwort vergessen?</h4>
+                    <h4 class={styles.forgetPassword} style={{ color: "#fff" }}>
+                        Passwort vergessen?
+                    </h4>
                 </div>
                 {/* Second Row */}
                 <div class={styles.row}>
@@ -31,7 +33,9 @@ const Login = () => {
                 </div>
                 {/* Third Row */}
                 <div class={styles.row}>
-                    <h4 style={{ color: "#fff" }}>Passwort vergessen?</h4>
+                    <h4 class={styles.forgetPassword} style={{ color: "#fff" }}>
+                        KEIN KONTO?
+                    </h4>
                     <button class={styles.button} style={{ width: "60%" }}>
                         Jetzt Registrieren
                     </button>

@@ -95,3 +95,13 @@
 .font {
     font-family: "Alumni Sans", sans-serif;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .bigTitle {
+        font-size: 36px;
+    }
+}

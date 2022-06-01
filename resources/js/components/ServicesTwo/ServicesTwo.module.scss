@@ -65,3 +65,59 @@
 .font {
     font-family: "IBM Plex Sans", sans-serif;
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .bigTitle {
+        font-size: 36px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .icon {
+        height: 150px;
+        width: 150px;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .icon {
+        height: 150px;
+        width: 150px;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+
+    .iconContainer {
+        margin-inline: 5px !important;
+    }
+
+    .iconText {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .bigTitle {
+        font-size: 28px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+
+    .servicesList {
+        flex-direction: column;
+    }
+}
